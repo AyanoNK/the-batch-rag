@@ -19,3 +19,19 @@ https://bun.sh/guides/ecosystem/render
 
 https://github.com/lavague-ai/LaVague
 https://github.com/ScrapeGraphAI/Scrapegraph-ai
+
+## Testing
+
+https://www.deepeval.com/docs/getting-started
+
+## Observability
+
+https://arize.com/
+
+## DevOps
+
+https://www.youtube.com/watch?v=0Xyn8HD2abU
+
+## Frontend tricks
+
+https://chrome.dev/
