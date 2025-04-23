@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="1X0sIhYdtcIoR8U4TcKy">
+    <mxGraphModel dx="2068" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6Aovsn38hMlCsBMQtOU-5" target="H6Aovsn38hMlCsBMQtOU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="341.25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6Aovsn38hMlCsBMQtOU-6" target="H6Aovsn38hMlCsBMQtOU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-6" value="frontend" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+          <mxGeometry x="120" y="222.5" width="200" height="297.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-8" value="frontend server" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-6">
+          <mxGeometry x="40" y="57.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-12" value="bun&lt;div&gt;vite&lt;/div&gt;&lt;div&gt;react&lt;/div&gt;&lt;div&gt;tailwind&lt;/div&gt;&lt;div&gt;The Batch UI/IX design&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-6">
+          <mxGeometry x="40" y="137.5" width="120" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-13" value="techs" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-12">
+          <mxGeometry width="120" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-7" value="backend" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="107.5" width="200" height="527.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-17" value="backend server" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-7">
+          <mxGeometry x="40" y="57.5" width="120" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-18" value="REST API" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-17">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-17">
+          <mxGeometry y="60" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-20" value="internal structure" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-17">
+          <mxGeometry y="68" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-21" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-17">
+          <mxGeometry y="88" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-22" value="LLM interface" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-21">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-24" value="OpenSearch interface" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-21">
+          <mxGeometry width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-25" value="Scraping interface" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-21">
+          <mxGeometry x="20" y="102.25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-28" value="python&lt;div&gt;langchain&lt;/div&gt;&lt;div&gt;Claude Sonnet 3.7&lt;/div&gt;&lt;div&gt;Claude Voyage&amp;nbsp;&lt;/div&gt;&lt;div&gt;OpenSearch&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-7">
+          <mxGeometry x="40" y="337.5" width="120" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-29" value="techs" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" vertex="1" parent="H6Aovsn38hMlCsBMQtOU-28">
+          <mxGeometry width="120" height="25" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6Aovsn38hMlCsBMQtOU-16" target="H6Aovsn38hMlCsBMQtOU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-16" value="AWS OpenSearch" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.opensearch;spacingBottom=0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="650" y="192.25" width="60.3" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6Aovsn38hMlCsBMQtOU-26" target="H6Aovsn38hMlCsBMQtOU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6Aovsn38hMlCsBMQtOU-26" value="AWS Bedrock" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock;" vertex="1" parent="1">
+          <mxGeometry x="650" y="472.25" width="78" height="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
