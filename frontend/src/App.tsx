@@ -74,7 +74,7 @@ export default function App() {
 
       <div
         id="messages-list"
-        className="-z-10 flex w-full max-w-2xl flex-col gap-4 pb-24"
+        className="-z-10 flex w-full max-w-2xl flex-col gap-4 pb-38 sm:pb-24"
       >
         {messages.map((message) => (
           <ChatBubble message={message} key={`item-${message.id}`} />
