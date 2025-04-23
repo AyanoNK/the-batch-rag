@@ -3,3 +3,8 @@
 @theme {
   --color-some-color: #ff0000;
 }
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
