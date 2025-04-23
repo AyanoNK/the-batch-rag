@@ -1,7 +1,6 @@
 """Base FastAPI application with a couple of endpoints."""
 
 from typing import Union
-
 from fastapi import FastAPI
 
 app = FastAPI()
