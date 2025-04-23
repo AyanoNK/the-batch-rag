@@ -7,7 +7,7 @@ https://www.deeplearning.ai/the-batch/
 ### Setting the project up
 
 - [x] Create and deploy the frontend base app
-- [ ] Create and deploy a base backend API
+- [x] Create and deploy a base backend API
 
 ### Setting up the project environemnt
 
