@@ -11,7 +11,7 @@ https://www.deeplearning.ai/the-batch/
 
 ### Setting up the project environemnt
 
-- [ ] Create the chat frontend
+- [x] Create the chat frontend
 - [ ] Create the backend API with some mock calls for the frontend to call
 - [ ] Create the vector database for embeddings
 
