@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ChatBubble from "./components/ChatBubble";
 
 type ListItem = {
   id: number;
@@ -34,7 +35,7 @@ const li: ListItem[] = [
   },
 ];
 export default function App() {
-  const [items, setItems] = useState<ListItem[]>(li);
+  const [messages, setMessages] = useState<ListItem[]>(li);
 
   const handleScrollToBottom = () => {
     window.scrollTo({ top: 10000, behavior: "smooth" });
@@ -42,7 +43,7 @@ export default function App() {
 
   useEffect(() => {
     handleScrollToBottom();
-  }, [items]);
+  }, [messages]);
 
   const formOnSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -52,7 +53,7 @@ export default function App() {
 
     if (!inputText) return;
 
-    setItems((prevValue: ListItem[]) => [
+    setMessages((prevValue: ListItem[]) => [
       ...prevValue,
       {
         id: prevValue.length + 1,
@@ -75,17 +76,8 @@ export default function App() {
         id="messages-list"
         className="-z-10 flex w-full max-w-2xl flex-col gap-4 pb-24"
       >
-        {items.map((item) => (
-          <div
-            key={`item-${item.id}`}
-            className={`flex w-full justify-${item.isUser ? "end" : "start"}`}
-          >
-            <div
-              className={`max-w-md rounded-t-lg ${item.isUser ? "rounded-bl-lg" : "rounded-br-lg"} border border-b-cyan-800 p-4`}
-            >
-              <span>{item.text}</span>
-            </div>
-          </div>
+        {messages.map((message) => (
+          <ChatBubble message={message} key={`item-${message.id}`} />
         ))}
       </div>
       <form
