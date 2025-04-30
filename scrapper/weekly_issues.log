@@ -1,0 +1,907 @@
+2025-04-30 15:41:52,225 weekly_issues INFO Scraping issue 1
+2025-04-30 15:41:59,013 weekly_issues INFO Uploading issue 1 to S3
+2025-04-30 15:41:59,022 botocore.tokens INFO Loading cached SSO token for bedrock-identity-center
+2025-04-30 15:42:00,521 weekly_issues INFO Removing issue 1 file
+2025-04-30 15:42:00,521 weekly_issues INFO Scraping issue 2
+2025-04-30 15:42:07,209 weekly_issues INFO Uploading issue 2 to S3
+2025-04-30 15:42:07,783 weekly_issues INFO Removing issue 2 file
+2025-04-30 15:42:07,783 weekly_issues INFO Scraping issue 3
+2025-04-30 15:42:14,526 weekly_issues INFO Uploading issue 3 to S3
+2025-04-30 15:42:15,151 weekly_issues INFO Removing issue 3 file
+2025-04-30 15:42:15,151 weekly_issues INFO Scraping issue 4
+2025-04-30 15:42:22,280 weekly_issues INFO Uploading issue 4 to S3
+2025-04-30 15:42:22,857 weekly_issues INFO Removing issue 4 file
+2025-04-30 15:42:22,857 weekly_issues INFO Scraping issue 5
+2025-04-30 15:42:30,013 weekly_issues INFO Uploading issue 5 to S3
+2025-04-30 15:42:30,595 weekly_issues INFO Removing issue 5 file
+2025-04-30 15:42:30,595 weekly_issues INFO Scraping issue 6
+2025-04-30 15:42:37,654 weekly_issues INFO Uploading issue 6 to S3
+2025-04-30 15:42:38,497 weekly_issues INFO Removing issue 6 file
+2025-04-30 15:42:38,497 weekly_issues INFO Scraping issue 7
+2025-04-30 15:42:45,847 weekly_issues INFO Uploading issue 7 to S3
+2025-04-30 15:42:46,669 weekly_issues INFO Removing issue 7 file
+2025-04-30 15:42:46,670 weekly_issues INFO Scraping issue 8
+2025-04-30 15:42:53,871 weekly_issues INFO Uploading issue 8 to S3
+2025-04-30 15:42:54,418 weekly_issues INFO Removing issue 8 file
+2025-04-30 15:42:54,419 weekly_issues INFO Scraping issue 9
+2025-04-30 15:43:00,652 weekly_issues INFO Uploading issue 9 to S3
+2025-04-30 15:43:01,283 weekly_issues INFO Removing issue 9 file
+2025-04-30 15:43:01,283 weekly_issues INFO Scraping issue 10
+2025-04-30 15:43:09,080 weekly_issues INFO Uploading issue 10 to S3
+2025-04-30 15:43:09,685 weekly_issues INFO Removing issue 10 file
+2025-04-30 15:43:09,686 weekly_issues INFO Scraping issue 11
+2025-04-30 15:43:17,253 weekly_issues INFO Uploading issue 11 to S3
+2025-04-30 15:43:17,889 weekly_issues INFO Removing issue 11 file
+2025-04-30 15:43:17,889 weekly_issues INFO Scraping issue 12
+2025-04-30 15:43:25,185 weekly_issues INFO Uploading issue 12 to S3
+2025-04-30 15:43:25,801 weekly_issues INFO Removing issue 12 file
+2025-04-30 15:43:25,801 weekly_issues INFO Scraping issue 13
+2025-04-30 15:43:34,020 weekly_issues INFO Uploading issue 13 to S3
+2025-04-30 15:43:34,660 weekly_issues INFO Removing issue 13 file
+2025-04-30 15:43:34,660 weekly_issues INFO Scraping issue 14
+2025-04-30 15:43:42,337 weekly_issues INFO Uploading issue 14 to S3
+2025-04-30 15:43:42,960 weekly_issues INFO Removing issue 14 file
+2025-04-30 15:43:42,960 weekly_issues INFO Scraping issue 15
+2025-04-30 15:43:49,253 weekly_issues INFO Uploading issue 15 to S3
+2025-04-30 15:43:49,886 weekly_issues INFO Removing issue 15 file
+2025-04-30 15:43:49,886 weekly_issues INFO Scraping issue 16
+2025-04-30 15:43:58,685 weekly_issues INFO Uploading issue 16 to S3
+2025-04-30 15:43:59,448 weekly_issues INFO Removing issue 16 file
+2025-04-30 15:43:59,448 weekly_issues INFO Scraping issue 17
+2025-04-30 15:44:07,047 weekly_issues INFO Uploading issue 17 to S3
+2025-04-30 15:44:07,658 weekly_issues INFO Removing issue 17 file
+2025-04-30 15:44:07,658 weekly_issues INFO Scraping issue 18
+2025-04-30 15:44:14,805 weekly_issues INFO Uploading issue 18 to S3
+2025-04-30 15:44:15,404 weekly_issues INFO Removing issue 18 file
+2025-04-30 15:44:15,404 weekly_issues INFO Scraping issue 19
+2025-04-30 15:44:22,629 weekly_issues INFO Uploading issue 19 to S3
+2025-04-30 15:44:23,202 weekly_issues INFO Removing issue 19 file
+2025-04-30 15:44:23,202 weekly_issues INFO Scraping issue 20
+2025-04-30 15:44:31,379 weekly_issues INFO Uploading issue 20 to S3
+2025-04-30 15:44:31,983 weekly_issues INFO Removing issue 20 file
+2025-04-30 15:44:31,983 weekly_issues INFO Scraping issue 21
+2025-04-30 15:44:39,501 weekly_issues INFO Uploading issue 21 to S3
+2025-04-30 15:44:40,072 weekly_issues INFO Removing issue 21 file
+2025-04-30 15:44:40,072 weekly_issues INFO Scraping issue 22
+2025-04-30 15:44:48,233 weekly_issues INFO Uploading issue 22 to S3
+2025-04-30 15:44:48,880 weekly_issues INFO Removing issue 22 file
+2025-04-30 15:44:48,880 weekly_issues INFO Scraping issue 23
+2025-04-30 15:44:57,712 weekly_issues INFO Uploading issue 23 to S3
+2025-04-30 15:44:58,343 weekly_issues INFO Removing issue 23 file
+2025-04-30 15:44:58,343 weekly_issues INFO Scraping issue 24
+2025-04-30 15:45:05,469 weekly_issues INFO Uploading issue 24 to S3
+2025-04-30 15:45:06,126 weekly_issues INFO Removing issue 24 file
+2025-04-30 15:45:06,126 weekly_issues INFO Scraping issue 25
+2025-04-30 15:45:13,309 weekly_issues INFO Uploading issue 25 to S3
+2025-04-30 15:45:13,981 weekly_issues INFO Removing issue 25 file
+2025-04-30 15:45:13,981 weekly_issues INFO Scraping issue 26
+2025-04-30 15:45:20,876 weekly_issues INFO Uploading issue 26 to S3
+2025-04-30 15:45:21,521 weekly_issues INFO Removing issue 26 file
+2025-04-30 15:45:21,521 weekly_issues INFO Scraping issue 27
+2025-04-30 15:45:28,337 weekly_issues INFO Uploading issue 27 to S3
+2025-04-30 15:45:28,952 weekly_issues INFO Removing issue 27 file
+2025-04-30 15:45:28,952 weekly_issues INFO Scraping issue 28
+2025-04-30 15:45:35,965 weekly_issues INFO Uploading issue 28 to S3
+2025-04-30 15:45:36,581 weekly_issues INFO Removing issue 28 file
+2025-04-30 15:45:36,581 weekly_issues INFO Scraping issue 29
+2025-04-30 15:45:43,820 weekly_issues INFO Uploading issue 29 to S3
+2025-04-30 15:45:44,408 weekly_issues INFO Removing issue 29 file
+2025-04-30 15:45:44,409 weekly_issues INFO Scraping issue 30
+2025-04-30 15:45:52,183 weekly_issues INFO Uploading issue 30 to S3
+2025-04-30 15:45:52,758 weekly_issues INFO Removing issue 30 file
+2025-04-30 15:45:52,758 weekly_issues INFO Scraping issue 31
+2025-04-30 15:46:01,127 weekly_issues INFO Uploading issue 31 to S3
+2025-04-30 15:46:01,717 weekly_issues INFO Removing issue 31 file
+2025-04-30 15:46:01,717 weekly_issues INFO Scraping issue 32
+2025-04-30 15:46:10,455 weekly_issues INFO Uploading issue 32 to S3
+2025-04-30 15:46:11,105 weekly_issues INFO Removing issue 32 file
+2025-04-30 15:46:11,105 weekly_issues INFO Scraping issue 33
+2025-04-30 15:46:18,994 weekly_issues INFO Uploading issue 33 to S3
+2025-04-30 15:46:19,595 weekly_issues INFO Removing issue 33 file
+2025-04-30 15:46:19,595 weekly_issues INFO Scraping issue 34
+2025-04-30 15:46:27,568 weekly_issues INFO Uploading issue 34 to S3
+2025-04-30 15:46:28,168 weekly_issues INFO Removing issue 34 file
+2025-04-30 15:46:28,168 weekly_issues INFO Scraping issue 35
+2025-04-30 15:46:36,058 weekly_issues INFO Uploading issue 35 to S3
+2025-04-30 15:46:36,651 weekly_issues INFO Removing issue 35 file
+2025-04-30 15:46:36,651 weekly_issues INFO Scraping issue 36
+2025-04-30 15:46:44,330 weekly_issues INFO Uploading issue 36 to S3
+2025-04-30 15:46:44,959 weekly_issues INFO Removing issue 36 file
+2025-04-30 15:46:44,959 weekly_issues INFO Scraping issue 37
+2025-04-30 15:46:53,077 weekly_issues INFO Uploading issue 37 to S3
+2025-04-30 15:46:53,681 weekly_issues INFO Removing issue 37 file
+2025-04-30 15:46:53,681 weekly_issues INFO Scraping issue 38
+2025-04-30 15:47:01,595 weekly_issues INFO Uploading issue 38 to S3
+2025-04-30 15:47:02,272 weekly_issues INFO Removing issue 38 file
+2025-04-30 15:47:02,272 weekly_issues INFO Scraping issue 39
+2025-04-30 15:47:09,949 weekly_issues INFO Uploading issue 39 to S3
+2025-04-30 15:47:10,602 weekly_issues INFO Removing issue 39 file
+2025-04-30 15:47:10,602 weekly_issues INFO Scraping issue 40
+2025-04-30 15:47:17,770 weekly_issues INFO Uploading issue 40 to S3
+2025-04-30 15:47:18,341 weekly_issues INFO Removing issue 40 file
+2025-04-30 15:47:18,341 weekly_issues INFO Scraping issue 41
+2025-04-30 15:47:25,855 weekly_issues INFO Uploading issue 41 to S3
+2025-04-30 15:47:26,408 weekly_issues INFO Removing issue 41 file
+2025-04-30 15:47:26,409 weekly_issues INFO Scraping issue 42
+2025-04-30 15:47:33,773 weekly_issues INFO Uploading issue 42 to S3
+2025-04-30 15:47:34,427 weekly_issues INFO Removing issue 42 file
+2025-04-30 15:47:34,428 weekly_issues INFO Scraping issue 43
+2025-04-30 15:47:41,545 weekly_issues INFO Uploading issue 43 to S3
+2025-04-30 15:47:42,164 weekly_issues INFO Removing issue 43 file
+2025-04-30 15:47:42,164 weekly_issues INFO Scraping issue 44
+2025-04-30 15:47:51,818 weekly_issues INFO Uploading issue 44 to S3
+2025-04-30 15:47:52,585 weekly_issues INFO Removing issue 44 file
+2025-04-30 15:47:52,585 weekly_issues INFO Scraping issue 45
+2025-04-30 15:47:59,104 weekly_issues INFO Uploading issue 45 to S3
+2025-04-30 15:47:59,746 weekly_issues INFO Removing issue 45 file
+2025-04-30 15:47:59,746 weekly_issues INFO Scraping issue 46
+2025-04-30 15:48:06,576 weekly_issues INFO Uploading issue 46 to S3
+2025-04-30 15:48:07,335 weekly_issues INFO Removing issue 46 file
+2025-04-30 15:48:07,335 weekly_issues INFO Scraping issue 47
+2025-04-30 15:48:14,063 weekly_issues INFO Uploading issue 47 to S3
+2025-04-30 15:48:14,705 weekly_issues INFO Removing issue 47 file
+2025-04-30 15:48:14,706 weekly_issues INFO Scraping issue 48
+2025-04-30 15:48:30,830 weekly_issues INFO Uploading issue 48 to S3
+2025-04-30 15:48:31,370 weekly_issues INFO Removing issue 48 file
+2025-04-30 15:48:31,370 weekly_issues INFO Scraping issue 49
+2025-04-30 15:48:47,448 weekly_issues INFO Uploading issue 49 to S3
+2025-04-30 15:48:47,962 weekly_issues INFO Removing issue 49 file
+2025-04-30 15:48:47,963 weekly_issues INFO Scraping issue 50
+2025-04-30 15:48:54,859 weekly_issues INFO Uploading issue 50 to S3
+2025-04-30 15:48:55,427 weekly_issues INFO Removing issue 50 file
+2025-04-30 15:48:55,427 weekly_issues INFO Scraping issue 51
+2025-04-30 15:49:02,231 weekly_issues INFO Uploading issue 51 to S3
+2025-04-30 15:49:02,856 weekly_issues INFO Removing issue 51 file
+2025-04-30 15:49:02,856 weekly_issues INFO Scraping issue 52
+2025-04-30 15:49:10,183 weekly_issues INFO Uploading issue 52 to S3
+2025-04-30 15:49:10,825 weekly_issues INFO Removing issue 52 file
+2025-04-30 15:49:10,825 weekly_issues INFO Scraping issue 53
+2025-04-30 15:49:20,246 weekly_issues INFO Uploading issue 53 to S3
+2025-04-30 15:49:20,898 weekly_issues INFO Removing issue 53 file
+2025-04-30 15:49:20,898 weekly_issues INFO Scraping issue 54
+2025-04-30 15:49:28,691 weekly_issues INFO Uploading issue 54 to S3
+2025-04-30 15:49:29,295 weekly_issues INFO Removing issue 54 file
+2025-04-30 15:49:29,296 weekly_issues INFO Scraping issue 55
+2025-04-30 15:49:37,862 weekly_issues INFO Uploading issue 55 to S3
+2025-04-30 15:49:38,503 weekly_issues INFO Removing issue 55 file
+2025-04-30 15:49:38,504 weekly_issues INFO Scraping issue 56
+2025-04-30 15:49:46,823 weekly_issues INFO Uploading issue 56 to S3
+2025-04-30 15:49:47,512 weekly_issues INFO Removing issue 56 file
+2025-04-30 15:49:47,512 weekly_issues INFO Scraping issue 57
+2025-04-30 15:49:56,086 weekly_issues INFO Uploading issue 57 to S3
+2025-04-30 15:49:56,726 weekly_issues INFO Removing issue 57 file
+2025-04-30 15:49:56,726 weekly_issues INFO Scraping issue 58
+2025-04-30 15:50:04,228 weekly_issues INFO Uploading issue 58 to S3
+2025-04-30 15:50:04,863 weekly_issues INFO Removing issue 58 file
+2025-04-30 15:50:04,863 weekly_issues INFO Scraping issue 59
+2025-04-30 15:50:13,699 weekly_issues INFO Uploading issue 59 to S3
+2025-04-30 15:50:14,321 weekly_issues INFO Removing issue 59 file
+2025-04-30 15:50:14,322 weekly_issues INFO Scraping issue 60
+2025-04-30 15:50:22,112 weekly_issues INFO Uploading issue 60 to S3
+2025-04-30 15:50:22,707 weekly_issues INFO Removing issue 60 file
+2025-04-30 15:50:22,707 weekly_issues INFO Scraping issue 61
+2025-04-30 15:50:35,128 weekly_issues INFO Uploading issue 61 to S3
+2025-04-30 15:50:35,783 weekly_issues INFO Removing issue 61 file
+2025-04-30 15:50:35,784 weekly_issues INFO Scraping issue 62
+2025-04-30 15:50:43,985 weekly_issues INFO Uploading issue 62 to S3
+2025-04-30 15:50:44,610 weekly_issues INFO Removing issue 62 file
+2025-04-30 15:50:44,610 weekly_issues INFO Scraping issue 63
+2025-04-30 15:50:51,561 weekly_issues INFO Uploading issue 63 to S3
+2025-04-30 15:50:52,237 weekly_issues INFO Removing issue 63 file
+2025-04-30 15:50:52,237 weekly_issues INFO Scraping issue 64
+2025-04-30 15:51:08,286 weekly_issues INFO Uploading issue 64 to S3
+2025-04-30 15:51:08,812 weekly_issues INFO Removing issue 64 file
+2025-04-30 15:51:08,812 weekly_issues INFO Scraping issue 65
+2025-04-30 15:51:16,279 weekly_issues INFO Uploading issue 65 to S3
+2025-04-30 15:51:16,861 weekly_issues INFO Removing issue 65 file
+2025-04-30 15:51:16,861 weekly_issues INFO Scraping issue 66
+2025-04-30 15:51:23,945 weekly_issues INFO Uploading issue 66 to S3
+2025-04-30 15:51:24,463 weekly_issues INFO Removing issue 66 file
+2025-04-30 15:51:24,463 weekly_issues INFO Scraping issue 67
+2025-04-30 15:51:40,514 weekly_issues INFO Uploading issue 67 to S3
+2025-04-30 15:51:41,046 weekly_issues INFO Removing issue 67 file
+2025-04-30 15:51:41,046 weekly_issues INFO Scraping issue 68
+2025-04-30 15:51:57,134 weekly_issues INFO Uploading issue 68 to S3
+2025-04-30 15:51:57,746 weekly_issues INFO Removing issue 68 file
+2025-04-30 15:51:57,746 weekly_issues INFO Scraping issue 69
+2025-04-30 15:52:05,556 weekly_issues INFO Uploading issue 69 to S3
+2025-04-30 15:52:06,112 weekly_issues INFO Removing issue 69 file
+2025-04-30 15:52:06,112 weekly_issues INFO Scraping issue 70
+2025-04-30 15:52:13,448 weekly_issues INFO Uploading issue 70 to S3
+2025-04-30 15:52:14,011 weekly_issues INFO Removing issue 70 file
+2025-04-30 15:52:14,011 weekly_issues INFO Scraping issue 71
+2025-04-30 15:52:21,134 weekly_issues INFO Uploading issue 71 to S3
+2025-04-30 15:52:21,770 weekly_issues INFO Removing issue 71 file
+2025-04-30 15:52:21,770 weekly_issues INFO Scraping issue 72
+2025-04-30 15:52:29,619 weekly_issues INFO Uploading issue 72 to S3
+2025-04-30 15:52:30,316 weekly_issues INFO Removing issue 72 file
+2025-04-30 15:52:30,316 weekly_issues INFO Scraping issue 73
+2025-04-30 15:52:38,702 weekly_issues INFO Uploading issue 73 to S3
+2025-04-30 15:52:39,401 weekly_issues INFO Removing issue 73 file
+2025-04-30 15:52:39,401 weekly_issues INFO Scraping issue 74
+2025-04-30 15:52:47,975 weekly_issues INFO Uploading issue 74 to S3
+2025-04-30 15:52:48,622 weekly_issues INFO Removing issue 74 file
+2025-04-30 15:52:48,622 weekly_issues INFO Scraping issue 75
+2025-04-30 15:52:57,096 weekly_issues INFO Uploading issue 75 to S3
+2025-04-30 15:52:57,870 weekly_issues INFO Removing issue 75 file
+2025-04-30 15:52:57,871 weekly_issues INFO Scraping issue 76
+2025-04-30 15:53:08,671 weekly_issues INFO Uploading issue 76 to S3
+2025-04-30 15:53:09,302 weekly_issues INFO Removing issue 76 file
+2025-04-30 15:53:09,302 weekly_issues INFO Scraping issue 77
+2025-04-30 15:53:17,239 weekly_issues INFO Uploading issue 77 to S3
+2025-04-30 15:53:17,872 weekly_issues INFO Removing issue 77 file
+2025-04-30 15:53:17,872 weekly_issues INFO Scraping issue 78
+2025-04-30 15:53:24,936 weekly_issues INFO Uploading issue 78 to S3
+2025-04-30 15:53:25,754 weekly_issues INFO Removing issue 78 file
+2025-04-30 15:53:25,754 weekly_issues INFO Scraping issue 79
+2025-04-30 15:53:33,670 weekly_issues INFO Uploading issue 79 to S3
+2025-04-30 15:53:34,278 weekly_issues INFO Removing issue 79 file
+2025-04-30 15:53:34,278 weekly_issues INFO Scraping issue 80
+2025-04-30 15:53:42,421 weekly_issues INFO Uploading issue 80 to S3
+2025-04-30 15:53:43,063 weekly_issues INFO Removing issue 80 file
+2025-04-30 15:53:43,063 weekly_issues INFO Scraping issue 81
+2025-04-30 15:53:50,310 weekly_issues INFO Uploading issue 81 to S3
+2025-04-30 15:53:50,903 weekly_issues INFO Removing issue 81 file
+2025-04-30 15:53:50,903 weekly_issues INFO Scraping issue 82
+2025-04-30 15:53:59,593 weekly_issues INFO Uploading issue 82 to S3
+2025-04-30 15:54:00,171 weekly_issues INFO Removing issue 82 file
+2025-04-30 15:54:00,172 weekly_issues INFO Scraping issue 83
+2025-04-30 15:54:07,188 weekly_issues INFO Uploading issue 83 to S3
+2025-04-30 15:54:07,834 weekly_issues INFO Removing issue 83 file
+2025-04-30 15:54:07,835 weekly_issues INFO Scraping issue 84
+2025-04-30 15:54:15,379 weekly_issues INFO Uploading issue 84 to S3
+2025-04-30 15:54:16,023 weekly_issues INFO Removing issue 84 file
+2025-04-30 15:54:16,023 weekly_issues INFO Scraping issue 85
+2025-04-30 15:54:22,954 weekly_issues INFO Uploading issue 85 to S3
+2025-04-30 15:54:23,482 weekly_issues INFO Removing issue 85 file
+2025-04-30 15:54:23,483 weekly_issues INFO Scraping issue 86
+2025-04-30 15:54:31,734 weekly_issues INFO Uploading issue 86 to S3
+2025-04-30 15:54:32,326 weekly_issues INFO Removing issue 86 file
+2025-04-30 15:54:32,327 weekly_issues INFO Scraping issue 87
+2025-04-30 15:54:39,265 weekly_issues INFO Uploading issue 87 to S3
+2025-04-30 15:54:39,917 weekly_issues INFO Removing issue 87 file
+2025-04-30 15:54:39,918 weekly_issues INFO Scraping issue 88
+2025-04-30 15:54:46,128 weekly_issues INFO Uploading issue 88 to S3
+2025-04-30 15:54:46,751 weekly_issues INFO Removing issue 88 file
+2025-04-30 15:54:46,751 weekly_issues INFO Scraping issue 89
+2025-04-30 15:54:54,473 weekly_issues INFO Uploading issue 89 to S3
+2025-04-30 15:54:55,135 weekly_issues INFO Removing issue 89 file
+2025-04-30 15:54:55,135 weekly_issues INFO Scraping issue 90
+2025-04-30 15:55:03,384 weekly_issues INFO Uploading issue 90 to S3
+2025-04-30 15:55:03,963 weekly_issues INFO Removing issue 90 file
+2025-04-30 15:55:03,964 weekly_issues INFO Scraping issue 91
+2025-04-30 15:55:11,635 weekly_issues INFO Uploading issue 91 to S3
+2025-04-30 15:55:12,204 weekly_issues INFO Removing issue 91 file
+2025-04-30 15:55:12,205 weekly_issues INFO Scraping issue 92
+2025-04-30 15:55:19,624 weekly_issues INFO Uploading issue 92 to S3
+2025-04-30 15:55:20,211 weekly_issues INFO Removing issue 92 file
+2025-04-30 15:55:20,211 weekly_issues INFO Scraping issue 93
+2025-04-30 15:55:26,114 weekly_issues INFO Uploading issue 93 to S3
+2025-04-30 15:55:26,409 weekly_issues INFO Removing issue 93 file
+2025-04-30 15:55:26,409 weekly_issues INFO Scraping issue 94
+2025-04-30 15:55:34,921 weekly_issues INFO Uploading issue 94 to S3
+2025-04-30 15:55:35,558 weekly_issues INFO Removing issue 94 file
+2025-04-30 15:55:35,558 weekly_issues INFO Scraping issue 95
+2025-04-30 15:55:43,338 weekly_issues INFO Uploading issue 95 to S3
+2025-04-30 15:55:43,930 weekly_issues INFO Removing issue 95 file
+2025-04-30 15:55:43,930 weekly_issues INFO Scraping issue 96
+2025-04-30 15:55:51,316 weekly_issues INFO Uploading issue 96 to S3
+2025-04-30 15:55:51,941 weekly_issues INFO Removing issue 96 file
+2025-04-30 15:55:51,941 weekly_issues INFO Scraping issue 97
+2025-04-30 15:55:58,369 weekly_issues INFO Uploading issue 97 to S3
+2025-04-30 15:55:59,025 weekly_issues INFO Removing issue 97 file
+2025-04-30 15:55:59,025 weekly_issues INFO Scraping issue 98
+2025-04-30 15:56:05,541 weekly_issues INFO Uploading issue 98 to S3
+2025-04-30 15:56:06,117 weekly_issues INFO Removing issue 98 file
+2025-04-30 15:56:06,117 weekly_issues INFO Scraping issue 99
+2025-04-30 15:56:13,191 weekly_issues INFO Uploading issue 99 to S3
+2025-04-30 15:56:13,752 weekly_issues INFO Removing issue 99 file
+2025-04-30 15:56:13,752 weekly_issues INFO Scraping issue 100
+2025-04-30 15:56:20,189 weekly_issues INFO Uploading issue 100 to S3
+2025-04-30 15:56:20,770 weekly_issues INFO Removing issue 100 file
+2025-04-30 15:56:20,771 weekly_issues INFO Scraping issue 101
+2025-04-30 15:56:26,978 weekly_issues INFO Uploading issue 101 to S3
+2025-04-30 15:56:27,586 weekly_issues INFO Removing issue 101 file
+2025-04-30 15:56:27,587 weekly_issues INFO Scraping issue 102
+2025-04-30 15:56:33,972 weekly_issues INFO Uploading issue 102 to S3
+2025-04-30 15:56:34,540 weekly_issues INFO Removing issue 102 file
+2025-04-30 15:56:34,540 weekly_issues INFO Scraping issue 103
+2025-04-30 15:56:40,997 weekly_issues INFO Uploading issue 103 to S3
+2025-04-30 15:56:41,667 weekly_issues INFO Removing issue 103 file
+2025-04-30 15:56:41,667 weekly_issues INFO Scraping issue 104
+2025-04-30 15:57:02,704 weekly_issues INFO Uploading issue 104 to S3
+2025-04-30 15:57:03,383 weekly_issues INFO Removing issue 104 file
+2025-04-30 15:57:03,383 weekly_issues INFO Scraping issue 105
+2025-04-30 15:57:19,487 weekly_issues INFO Uploading issue 105 to S3
+2025-04-30 15:57:20,080 weekly_issues INFO Removing issue 105 file
+2025-04-30 15:57:20,080 weekly_issues INFO Scraping issue 106
+2025-04-30 15:57:27,550 weekly_issues INFO Uploading issue 106 to S3
+2025-04-30 15:57:28,124 weekly_issues INFO Removing issue 106 file
+2025-04-30 15:57:28,124 weekly_issues INFO Scraping issue 107
+2025-04-30 15:57:34,608 weekly_issues INFO Uploading issue 107 to S3
+2025-04-30 15:57:35,141 weekly_issues INFO Removing issue 107 file
+2025-04-30 15:57:35,142 weekly_issues INFO Scraping issue 108
+2025-04-30 15:57:41,517 weekly_issues INFO Uploading issue 108 to S3
+2025-04-30 15:57:42,089 weekly_issues INFO Removing issue 108 file
+2025-04-30 15:57:42,090 weekly_issues INFO Scraping issue 109
+2025-04-30 15:57:48,279 weekly_issues INFO Uploading issue 109 to S3
+2025-04-30 15:57:48,921 weekly_issues INFO Removing issue 109 file
+2025-04-30 15:57:48,921 weekly_issues INFO Scraping issue 110
+2025-04-30 15:57:56,554 weekly_issues INFO Uploading issue 110 to S3
+2025-04-30 15:57:57,163 weekly_issues INFO Removing issue 110 file
+2025-04-30 15:57:57,163 weekly_issues INFO Scraping issue 111
+2025-04-30 15:58:05,205 weekly_issues INFO Uploading issue 111 to S3
+2025-04-30 15:58:06,012 weekly_issues INFO Removing issue 111 file
+2025-04-30 15:58:06,012 weekly_issues INFO Scraping issue 112
+2025-04-30 15:58:14,155 weekly_issues INFO Uploading issue 112 to S3
+2025-04-30 15:58:14,730 weekly_issues INFO Removing issue 112 file
+2025-04-30 15:58:14,731 weekly_issues INFO Scraping issue 113
+2025-04-30 15:58:21,391 weekly_issues INFO Uploading issue 113 to S3
+2025-04-30 15:58:21,990 weekly_issues INFO Removing issue 113 file
+2025-04-30 15:58:21,990 weekly_issues INFO Scraping issue 114
+2025-04-30 15:58:28,363 weekly_issues INFO Uploading issue 114 to S3
+2025-04-30 15:58:28,950 weekly_issues INFO Removing issue 114 file
+2025-04-30 15:58:28,951 weekly_issues INFO Scraping issue 115
+2025-04-30 15:58:34,991 weekly_issues INFO Uploading issue 115 to S3
+2025-04-30 15:58:35,597 weekly_issues INFO Removing issue 115 file
+2025-04-30 15:58:35,597 weekly_issues INFO Scraping issue 116
+2025-04-30 15:58:42,215 weekly_issues INFO Uploading issue 116 to S3
+2025-04-30 15:58:42,949 weekly_issues INFO Removing issue 116 file
+2025-04-30 15:58:42,950 weekly_issues INFO Scraping issue 117
+2025-04-30 15:58:51,133 weekly_issues INFO Uploading issue 117 to S3
+2025-04-30 15:58:51,799 weekly_issues INFO Removing issue 117 file
+2025-04-30 15:58:51,799 weekly_issues INFO Scraping issue 118
+2025-04-30 15:58:58,589 weekly_issues INFO Uploading issue 118 to S3
+2025-04-30 15:58:59,181 weekly_issues INFO Removing issue 118 file
+2025-04-30 15:58:59,181 weekly_issues INFO Scraping issue 119
+2025-04-30 15:59:01,500 weekly_issues INFO Uploading issue 119 to S3
+2025-04-30 15:59:01,725 weekly_issues INFO Removing issue 119 file
+2025-04-30 15:59:01,725 weekly_issues INFO Scraping issue 120
+2025-04-30 15:59:09,935 weekly_issues INFO Uploading issue 120 to S3
+2025-04-30 15:59:10,558 weekly_issues INFO Removing issue 120 file
+2025-04-30 15:59:10,558 weekly_issues INFO Scraping issue 121
+2025-04-30 15:59:17,414 weekly_issues INFO Uploading issue 121 to S3
+2025-04-30 15:59:18,017 weekly_issues INFO Removing issue 121 file
+2025-04-30 15:59:18,017 weekly_issues INFO Scraping issue 122
+2025-04-30 15:59:25,181 weekly_issues INFO Uploading issue 122 to S3
+2025-04-30 15:59:25,827 weekly_issues INFO Removing issue 122 file
+2025-04-30 15:59:25,827 weekly_issues INFO Scraping issue 123
+2025-04-30 15:59:31,909 weekly_issues INFO Uploading issue 123 to S3
+2025-04-30 15:59:32,506 weekly_issues INFO Removing issue 123 file
+2025-04-30 15:59:32,506 weekly_issues INFO Scraping issue 124
+2025-04-30 15:59:34,641 weekly_issues INFO Uploading issue 124 to S3
+2025-04-30 15:59:34,857 weekly_issues INFO Removing issue 124 file
+2025-04-30 15:59:34,858 weekly_issues INFO Scraping issue 125
+2025-04-30 15:59:44,413 weekly_issues INFO Uploading issue 125 to S3
+2025-04-30 15:59:45,081 weekly_issues INFO Removing issue 125 file
+2025-04-30 15:59:45,081 weekly_issues INFO Scraping issue 126
+2025-04-30 15:59:54,217 weekly_issues INFO Uploading issue 126 to S3
+2025-04-30 15:59:54,884 weekly_issues INFO Removing issue 126 file
+2025-04-30 15:59:54,884 weekly_issues INFO Scraping issue 127
+2025-04-30 16:00:03,085 weekly_issues INFO Uploading issue 127 to S3
+2025-04-30 16:00:03,701 weekly_issues INFO Removing issue 127 file
+2025-04-30 16:00:03,701 weekly_issues INFO Scraping issue 128
+2025-04-30 16:00:12,554 weekly_issues INFO Uploading issue 128 to S3
+2025-04-30 16:00:13,131 weekly_issues INFO Removing issue 128 file
+2025-04-30 16:00:13,131 weekly_issues INFO Scraping issue 129
+2025-04-30 16:00:21,040 weekly_issues INFO Uploading issue 129 to S3
+2025-04-30 16:00:21,624 weekly_issues INFO Removing issue 129 file
+2025-04-30 16:00:21,624 weekly_issues INFO Scraping issue 130
+2025-04-30 16:00:37,690 weekly_issues INFO Uploading issue 130 to S3
+2025-04-30 16:00:38,215 weekly_issues INFO Removing issue 130 file
+2025-04-30 16:00:38,215 weekly_issues INFO Scraping issue 131
+2025-04-30 16:00:54,275 weekly_issues INFO Uploading issue 131 to S3
+2025-04-30 16:00:54,896 weekly_issues INFO Removing issue 131 file
+2025-04-30 16:00:54,896 weekly_issues INFO Scraping issue 132
+2025-04-30 16:01:10,970 weekly_issues INFO Uploading issue 132 to S3
+2025-04-30 16:01:11,484 weekly_issues INFO Removing issue 132 file
+2025-04-30 16:01:11,484 weekly_issues INFO Scraping issue 133
+2025-04-30 16:01:19,674 weekly_issues INFO Uploading issue 133 to S3
+2025-04-30 16:01:20,273 weekly_issues INFO Removing issue 133 file
+2025-04-30 16:01:20,273 weekly_issues INFO Scraping issue 134
+2025-04-30 16:01:26,483 weekly_issues INFO Uploading issue 134 to S3
+2025-04-30 16:01:27,057 weekly_issues INFO Removing issue 134 file
+2025-04-30 16:01:27,057 weekly_issues INFO Scraping issue 135
+2025-04-30 16:01:43,150 weekly_issues INFO Uploading issue 135 to S3
+2025-04-30 16:01:43,669 weekly_issues INFO Removing issue 135 file
+2025-04-30 16:01:43,669 weekly_issues INFO Scraping issue 136
+2025-04-30 16:01:50,975 weekly_issues INFO Uploading issue 136 to S3
+2025-04-30 16:01:51,666 weekly_issues INFO Removing issue 136 file
+2025-04-30 16:01:51,666 weekly_issues INFO Scraping issue 137
+2025-04-30 16:01:58,300 weekly_issues INFO Uploading issue 137 to S3
+2025-04-30 16:01:59,016 weekly_issues INFO Removing issue 137 file
+2025-04-30 16:01:59,017 weekly_issues INFO Scraping issue 138
+2025-04-30 16:02:05,585 weekly_issues INFO Uploading issue 138 to S3
+2025-04-30 16:02:06,285 weekly_issues INFO Removing issue 138 file
+2025-04-30 16:02:06,285 weekly_issues INFO Scraping issue 139
+2025-04-30 16:02:22,375 weekly_issues INFO Uploading issue 139 to S3
+2025-04-30 16:02:22,876 weekly_issues INFO Removing issue 139 file
+2025-04-30 16:02:22,877 weekly_issues INFO Scraping issue 140
+2025-04-30 16:02:30,525 weekly_issues INFO Uploading issue 140 to S3
+2025-04-30 16:02:31,119 weekly_issues INFO Removing issue 140 file
+2025-04-30 16:02:31,119 weekly_issues INFO Scraping issue 141
+2025-04-30 16:02:38,984 weekly_issues INFO Uploading issue 141 to S3
+2025-04-30 16:02:39,723 weekly_issues INFO Removing issue 141 file
+2025-04-30 16:02:39,723 weekly_issues INFO Scraping issue 142
+2025-04-30 16:02:48,508 weekly_issues INFO Uploading issue 142 to S3
+2025-04-30 16:02:49,068 weekly_issues INFO Removing issue 142 file
+2025-04-30 16:02:49,068 weekly_issues INFO Scraping issue 143
+2025-04-30 16:02:57,620 weekly_issues INFO Uploading issue 143 to S3
+2025-04-30 16:02:58,244 weekly_issues INFO Removing issue 143 file
+2025-04-30 16:02:58,244 weekly_issues INFO Scraping issue 144
+2025-04-30 16:03:06,660 weekly_issues INFO Uploading issue 144 to S3
+2025-04-30 16:03:07,414 weekly_issues INFO Removing issue 144 file
+2025-04-30 16:03:07,414 weekly_issues INFO Scraping issue 145
+2025-04-30 16:03:15,697 weekly_issues INFO Uploading issue 145 to S3
+2025-04-30 16:03:16,315 weekly_issues INFO Removing issue 145 file
+2025-04-30 16:03:16,315 weekly_issues INFO Scraping issue 146
+2025-04-30 16:03:25,114 weekly_issues INFO Uploading issue 146 to S3
+2025-04-30 16:03:25,760 weekly_issues INFO Removing issue 146 file
+2025-04-30 16:03:25,760 weekly_issues INFO Scraping issue 147
+2025-04-30 16:03:34,253 weekly_issues INFO Uploading issue 147 to S3
+2025-04-30 16:03:34,809 weekly_issues INFO Removing issue 147 file
+2025-04-30 16:03:34,810 weekly_issues INFO Scraping issue 148
+2025-04-30 16:03:42,059 weekly_issues INFO Uploading issue 148 to S3
+2025-04-30 16:03:42,616 weekly_issues INFO Removing issue 148 file
+2025-04-30 16:03:42,616 weekly_issues INFO Scraping issue 149
+2025-04-30 16:03:49,496 weekly_issues INFO Uploading issue 149 to S3
+2025-04-30 16:03:50,056 weekly_issues INFO Removing issue 149 file
+2025-04-30 16:03:50,057 weekly_issues INFO Scraping issue 150
+2025-04-30 16:03:57,814 weekly_issues INFO Uploading issue 150 to S3
+2025-04-30 16:03:58,639 weekly_issues INFO Removing issue 150 file
+2025-04-30 16:03:58,639 weekly_issues INFO Scraping issue 151
+2025-04-30 16:04:06,783 weekly_issues INFO Uploading issue 151 to S3
+2025-04-30 16:04:07,478 weekly_issues INFO Removing issue 151 file
+2025-04-30 16:04:07,478 weekly_issues INFO Scraping issue 152
+2025-04-30 16:04:16,137 weekly_issues INFO Uploading issue 152 to S3
+2025-04-30 16:04:16,716 weekly_issues INFO Removing issue 152 file
+2025-04-30 16:04:16,716 weekly_issues INFO Scraping issue 153
+2025-04-30 16:04:23,614 weekly_issues INFO Uploading issue 153 to S3
+2025-04-30 16:04:24,266 weekly_issues INFO Removing issue 153 file
+2025-04-30 16:04:24,266 weekly_issues INFO Scraping issue 154
+2025-04-30 16:04:32,480 weekly_issues INFO Uploading issue 154 to S3
+2025-04-30 16:04:33,117 weekly_issues INFO Removing issue 154 file
+2025-04-30 16:04:33,117 weekly_issues INFO Scraping issue 155
+2025-04-30 16:04:39,538 weekly_issues INFO Uploading issue 155 to S3
+2025-04-30 16:04:40,270 weekly_issues INFO Removing issue 155 file
+2025-04-30 16:04:40,270 weekly_issues INFO Scraping issue 156
+2025-04-30 16:04:47,405 weekly_issues INFO Uploading issue 156 to S3
+2025-04-30 16:04:47,976 weekly_issues INFO Removing issue 156 file
+2025-04-30 16:04:47,976 weekly_issues INFO Scraping issue 157
+2025-04-30 16:04:54,235 weekly_issues INFO Uploading issue 157 to S3
+2025-04-30 16:04:54,966 weekly_issues INFO Removing issue 157 file
+2025-04-30 16:04:54,966 weekly_issues INFO Scraping issue 158
+2025-04-30 16:05:03,658 weekly_issues INFO Uploading issue 158 to S3
+2025-04-30 16:05:04,395 weekly_issues INFO Removing issue 158 file
+2025-04-30 16:05:04,395 weekly_issues INFO Scraping issue 159
+2025-04-30 16:05:12,195 weekly_issues INFO Uploading issue 159 to S3
+2025-04-30 16:05:12,791 weekly_issues INFO Removing issue 159 file
+2025-04-30 16:05:12,791 weekly_issues INFO Scraping issue 160
+2025-04-30 16:05:19,409 weekly_issues INFO Uploading issue 160 to S3
+2025-04-30 16:05:20,020 weekly_issues INFO Removing issue 160 file
+2025-04-30 16:05:20,020 weekly_issues INFO Scraping issue 161
+2025-04-30 16:05:27,323 weekly_issues INFO Uploading issue 161 to S3
+2025-04-30 16:05:27,954 weekly_issues INFO Removing issue 161 file
+2025-04-30 16:05:27,954 weekly_issues INFO Scraping issue 162
+2025-04-30 16:05:36,162 weekly_issues INFO Uploading issue 162 to S3
+2025-04-30 16:05:36,817 weekly_issues INFO Removing issue 162 file
+2025-04-30 16:05:36,817 weekly_issues INFO Scraping issue 163
+2025-04-30 16:05:44,317 weekly_issues INFO Uploading issue 163 to S3
+2025-04-30 16:05:44,937 weekly_issues INFO Removing issue 163 file
+2025-04-30 16:05:44,938 weekly_issues INFO Scraping issue 164
+2025-04-30 16:05:53,358 weekly_issues INFO Uploading issue 164 to S3
+2025-04-30 16:05:54,106 weekly_issues INFO Removing issue 164 file
+2025-04-30 16:05:54,106 weekly_issues INFO Scraping issue 165
+2025-04-30 16:06:02,621 weekly_issues INFO Uploading issue 165 to S3
+2025-04-30 16:06:03,284 weekly_issues INFO Removing issue 165 file
+2025-04-30 16:06:03,284 weekly_issues INFO Scraping issue 166
+2025-04-30 16:06:10,326 weekly_issues INFO Uploading issue 166 to S3
+2025-04-30 16:06:10,927 weekly_issues INFO Removing issue 166 file
+2025-04-30 16:06:10,927 weekly_issues INFO Scraping issue 167
+2025-04-30 16:06:18,043 weekly_issues INFO Uploading issue 167 to S3
+2025-04-30 16:06:18,602 weekly_issues INFO Removing issue 167 file
+2025-04-30 16:06:18,603 weekly_issues INFO Scraping issue 168
+2025-04-30 16:06:25,738 weekly_issues INFO Uploading issue 168 to S3
+2025-04-30 16:06:26,370 weekly_issues INFO Removing issue 168 file
+2025-04-30 16:06:26,370 weekly_issues INFO Scraping issue 169
+2025-04-30 16:06:34,376 weekly_issues INFO Uploading issue 169 to S3
+2025-04-30 16:06:35,039 weekly_issues INFO Removing issue 169 file
+2025-04-30 16:06:35,039 weekly_issues INFO Scraping issue 170
+2025-04-30 16:06:41,712 weekly_issues INFO Uploading issue 170 to S3
+2025-04-30 16:06:42,288 weekly_issues INFO Removing issue 170 file
+2025-04-30 16:06:42,288 weekly_issues INFO Scraping issue 171
+2025-04-30 16:06:50,730 weekly_issues INFO Uploading issue 171 to S3
+2025-04-30 16:06:51,372 weekly_issues INFO Removing issue 171 file
+2025-04-30 16:06:51,372 weekly_issues INFO Scraping issue 172
+2025-04-30 16:06:58,285 weekly_issues INFO Uploading issue 172 to S3
+2025-04-30 16:06:58,927 weekly_issues INFO Removing issue 172 file
+2025-04-30 16:06:58,927 weekly_issues INFO Scraping issue 173
+2025-04-30 16:07:06,269 weekly_issues INFO Uploading issue 173 to S3
+2025-04-30 16:07:06,933 weekly_issues INFO Removing issue 173 file
+2025-04-30 16:07:06,933 weekly_issues INFO Scraping issue 174
+2025-04-30 16:07:13,593 weekly_issues INFO Uploading issue 174 to S3
+2025-04-30 16:07:14,172 weekly_issues INFO Removing issue 174 file
+2025-04-30 16:07:14,172 weekly_issues INFO Scraping issue 175
+2025-04-30 16:07:21,009 weekly_issues INFO Uploading issue 175 to S3
+2025-04-30 16:07:21,597 weekly_issues INFO Removing issue 175 file
+2025-04-30 16:07:21,597 weekly_issues INFO Scraping issue 176
+2025-04-30 16:07:28,725 weekly_issues INFO Uploading issue 176 to S3
+2025-04-30 16:07:29,387 weekly_issues INFO Removing issue 176 file
+2025-04-30 16:07:29,387 weekly_issues INFO Scraping issue 177
+2025-04-30 16:07:37,015 weekly_issues INFO Uploading issue 177 to S3
+2025-04-30 16:07:37,724 weekly_issues INFO Removing issue 177 file
+2025-04-30 16:07:37,724 weekly_issues INFO Scraping issue 178
+2025-04-30 16:07:44,470 weekly_issues INFO Uploading issue 178 to S3
+2025-04-30 16:07:45,100 weekly_issues INFO Removing issue 178 file
+2025-04-30 16:07:45,100 weekly_issues INFO Scraping issue 179
+2025-04-30 16:07:51,535 weekly_issues INFO Uploading issue 179 to S3
+2025-04-30 16:07:52,100 weekly_issues INFO Removing issue 179 file
+2025-04-30 16:07:52,100 weekly_issues INFO Scraping issue 180
+2025-04-30 16:07:58,936 weekly_issues INFO Uploading issue 180 to S3
+2025-04-30 16:07:59,541 weekly_issues INFO Removing issue 180 file
+2025-04-30 16:07:59,541 weekly_issues INFO Scraping issue 181
+2025-04-30 16:08:07,313 weekly_issues INFO Uploading issue 181 to S3
+2025-04-30 16:08:07,934 weekly_issues INFO Removing issue 181 file
+2025-04-30 16:08:07,934 weekly_issues INFO Scraping issue 182
+2025-04-30 16:08:16,555 weekly_issues INFO Uploading issue 182 to S3
+2025-04-30 16:08:17,283 weekly_issues INFO Removing issue 182 file
+2025-04-30 16:08:17,284 weekly_issues INFO Scraping issue 183
+2025-04-30 16:08:24,857 weekly_issues INFO Uploading issue 183 to S3
+2025-04-30 16:08:25,497 weekly_issues INFO Removing issue 183 file
+2025-04-30 16:08:25,497 weekly_issues INFO Scraping issue 184
+2025-04-30 16:08:33,834 weekly_issues INFO Uploading issue 184 to S3
+2025-04-30 16:08:34,472 weekly_issues INFO Removing issue 184 file
+2025-04-30 16:08:34,472 weekly_issues INFO Scraping issue 185
+2025-04-30 16:08:43,500 weekly_issues INFO Uploading issue 185 to S3
+2025-04-30 16:08:44,102 weekly_issues INFO Removing issue 185 file
+2025-04-30 16:08:44,103 weekly_issues INFO Scraping issue 186
+2025-04-30 16:08:51,387 weekly_issues INFO Uploading issue 186 to S3
+2025-04-30 16:08:51,975 weekly_issues INFO Removing issue 186 file
+2025-04-30 16:08:51,975 weekly_issues INFO Scraping issue 187
+2025-04-30 16:08:59,514 weekly_issues INFO Uploading issue 187 to S3
+2025-04-30 16:09:00,191 weekly_issues INFO Removing issue 187 file
+2025-04-30 16:09:00,191 weekly_issues INFO Scraping issue 188
+2025-04-30 16:09:07,537 weekly_issues INFO Uploading issue 188 to S3
+2025-04-30 16:09:08,205 weekly_issues INFO Removing issue 188 file
+2025-04-30 16:09:08,205 weekly_issues INFO Scraping issue 189
+2025-04-30 16:09:15,578 weekly_issues INFO Uploading issue 189 to S3
+2025-04-30 16:09:16,332 weekly_issues INFO Removing issue 189 file
+2025-04-30 16:09:16,332 weekly_issues INFO Scraping issue 190
+2025-04-30 16:09:24,982 weekly_issues INFO Uploading issue 190 to S3
+2025-04-30 16:09:25,572 weekly_issues INFO Removing issue 190 file
+2025-04-30 16:09:25,572 weekly_issues INFO Scraping issue 191
+2025-04-30 16:09:34,181 weekly_issues INFO Uploading issue 191 to S3
+2025-04-30 16:09:34,828 weekly_issues INFO Removing issue 191 file
+2025-04-30 16:09:34,828 weekly_issues INFO Scraping issue 192
+2025-04-30 16:09:44,224 weekly_issues INFO Uploading issue 192 to S3
+2025-04-30 16:09:44,864 weekly_issues INFO Removing issue 192 file
+2025-04-30 16:09:44,865 weekly_issues INFO Scraping issue 193
+2025-04-30 16:09:52,064 weekly_issues INFO Uploading issue 193 to S3
+2025-04-30 16:09:52,694 weekly_issues INFO Removing issue 193 file
+2025-04-30 16:09:52,694 weekly_issues INFO Scraping issue 194
+2025-04-30 16:09:59,997 weekly_issues INFO Uploading issue 194 to S3
+2025-04-30 16:10:00,669 weekly_issues INFO Removing issue 194 file
+2025-04-30 16:10:00,669 weekly_issues INFO Scraping issue 195
+2025-04-30 16:10:10,946 weekly_issues INFO Uploading issue 195 to S3
+2025-04-30 16:10:11,583 weekly_issues INFO Removing issue 195 file
+2025-04-30 16:10:11,584 weekly_issues INFO Scraping issue 196
+2025-04-30 16:10:18,768 weekly_issues INFO Uploading issue 196 to S3
+2025-04-30 16:10:19,406 weekly_issues INFO Removing issue 196 file
+2025-04-30 16:10:19,406 weekly_issues INFO Scraping issue 197
+2025-04-30 16:10:26,896 weekly_issues INFO Uploading issue 197 to S3
+2025-04-30 16:10:27,554 weekly_issues INFO Removing issue 197 file
+2025-04-30 16:10:27,554 weekly_issues INFO Scraping issue 198
+2025-04-30 16:10:36,632 weekly_issues INFO Uploading issue 198 to S3
+2025-04-30 16:10:37,321 weekly_issues INFO Removing issue 198 file
+2025-04-30 16:10:37,321 weekly_issues INFO Scraping issue 199
+2025-04-30 16:10:45,832 weekly_issues INFO Uploading issue 199 to S3
+2025-04-30 16:10:46,436 weekly_issues INFO Removing issue 199 file
+2025-04-30 16:10:46,437 weekly_issues INFO Scraping issue 200
+2025-04-30 16:10:54,002 weekly_issues INFO Uploading issue 200 to S3
+2025-04-30 16:10:54,741 weekly_issues INFO Removing issue 200 file
+2025-04-30 16:10:54,741 weekly_issues INFO Scraping issue 201
+2025-04-30 16:11:02,112 weekly_issues INFO Uploading issue 201 to S3
+2025-04-30 16:11:02,736 weekly_issues INFO Removing issue 201 file
+2025-04-30 16:11:02,736 weekly_issues INFO Scraping issue 202
+2025-04-30 16:11:10,404 weekly_issues INFO Uploading issue 202 to S3
+2025-04-30 16:11:11,042 weekly_issues INFO Removing issue 202 file
+2025-04-30 16:11:11,043 weekly_issues INFO Scraping issue 203
+2025-04-30 16:11:19,718 weekly_issues INFO Uploading issue 203 to S3
+2025-04-30 16:11:20,268 weekly_issues INFO Removing issue 203 file
+2025-04-30 16:11:20,268 weekly_issues INFO Scraping issue 204
+2025-04-30 16:11:27,804 weekly_issues INFO Uploading issue 204 to S3
+2025-04-30 16:11:28,437 weekly_issues INFO Removing issue 204 file
+2025-04-30 16:11:28,438 weekly_issues INFO Scraping issue 205
+2025-04-30 16:11:38,203 weekly_issues INFO Uploading issue 205 to S3
+2025-04-30 16:11:38,874 weekly_issues INFO Removing issue 205 file
+2025-04-30 16:11:38,874 weekly_issues INFO Scraping issue 206
+2025-04-30 16:11:46,971 weekly_issues INFO Uploading issue 206 to S3
+2025-04-30 16:11:47,685 weekly_issues INFO Removing issue 206 file
+2025-04-30 16:11:47,686 weekly_issues INFO Scraping issue 207
+2025-04-30 16:11:55,992 weekly_issues INFO Uploading issue 207 to S3
+2025-04-30 16:11:56,603 weekly_issues INFO Removing issue 207 file
+2025-04-30 16:11:56,604 weekly_issues INFO Scraping issue 208
+2025-04-30 16:12:06,252 weekly_issues INFO Uploading issue 208 to S3
+2025-04-30 16:12:06,903 weekly_issues INFO Removing issue 208 file
+2025-04-30 16:12:06,903 weekly_issues INFO Scraping issue 209
+2025-04-30 16:12:15,338 weekly_issues INFO Uploading issue 209 to S3
+2025-04-30 16:12:15,926 weekly_issues INFO Removing issue 209 file
+2025-04-30 16:12:15,926 weekly_issues INFO Scraping issue 210
+2025-04-30 16:12:24,093 weekly_issues INFO Uploading issue 210 to S3
+2025-04-30 16:12:24,697 weekly_issues INFO Removing issue 210 file
+2025-04-30 16:12:24,697 weekly_issues INFO Scraping issue 211
+2025-04-30 16:12:32,011 weekly_issues INFO Uploading issue 211 to S3
+2025-04-30 16:12:32,719 weekly_issues INFO Removing issue 211 file
+2025-04-30 16:12:32,719 weekly_issues INFO Scraping issue 212
+2025-04-30 16:12:39,571 weekly_issues INFO Uploading issue 212 to S3
+2025-04-30 16:12:40,336 weekly_issues INFO Removing issue 212 file
+2025-04-30 16:12:40,336 weekly_issues INFO Scraping issue 213
+2025-04-30 16:12:48,595 weekly_issues INFO Uploading issue 213 to S3
+2025-04-30 16:12:49,271 weekly_issues INFO Removing issue 213 file
+2025-04-30 16:12:49,271 weekly_issues INFO Scraping issue 214
+2025-04-30 16:12:56,793 weekly_issues INFO Uploading issue 214 to S3
+2025-04-30 16:12:57,451 weekly_issues INFO Removing issue 214 file
+2025-04-30 16:12:57,451 weekly_issues INFO Scraping issue 215
+2025-04-30 16:13:05,818 weekly_issues INFO Uploading issue 215 to S3
+2025-04-30 16:13:06,466 weekly_issues INFO Removing issue 215 file
+2025-04-30 16:13:06,466 weekly_issues INFO Scraping issue 216
+2025-04-30 16:13:14,401 weekly_issues INFO Uploading issue 216 to S3
+2025-04-30 16:13:15,014 weekly_issues INFO Removing issue 216 file
+2025-04-30 16:13:15,014 weekly_issues INFO Scraping issue 217
+2025-04-30 16:13:22,085 weekly_issues INFO Uploading issue 217 to S3
+2025-04-30 16:13:22,820 weekly_issues INFO Removing issue 217 file
+2025-04-30 16:13:22,820 weekly_issues INFO Scraping issue 218
+2025-04-30 16:13:31,492 weekly_issues INFO Uploading issue 218 to S3
+2025-04-30 16:13:32,123 weekly_issues INFO Removing issue 218 file
+2025-04-30 16:13:32,123 weekly_issues INFO Scraping issue 219
+2025-04-30 16:13:39,667 weekly_issues INFO Uploading issue 219 to S3
+2025-04-30 16:13:40,287 weekly_issues INFO Removing issue 219 file
+2025-04-30 16:13:40,287 weekly_issues INFO Scraping issue 220
+2025-04-30 16:13:48,665 weekly_issues INFO Uploading issue 220 to S3
+2025-04-30 16:13:49,301 weekly_issues INFO Removing issue 220 file
+2025-04-30 16:13:49,301 weekly_issues INFO Scraping issue 221
+2025-04-30 16:13:57,713 weekly_issues INFO Uploading issue 221 to S3
+2025-04-30 16:13:58,384 weekly_issues INFO Removing issue 221 file
+2025-04-30 16:13:58,384 weekly_issues INFO Scraping issue 222
+2025-04-30 16:14:08,051 weekly_issues INFO Uploading issue 222 to S3
+2025-04-30 16:14:08,690 weekly_issues INFO Removing issue 222 file
+2025-04-30 16:14:08,690 weekly_issues INFO Scraping issue 223
+2025-04-30 16:14:18,367 weekly_issues INFO Uploading issue 223 to S3
+2025-04-30 16:14:19,078 weekly_issues INFO Removing issue 223 file
+2025-04-30 16:14:19,078 weekly_issues INFO Scraping issue 224
+2025-04-30 16:14:28,665 weekly_issues INFO Uploading issue 224 to S3
+2025-04-30 16:14:29,565 weekly_issues INFO Removing issue 224 file
+2025-04-30 16:14:29,565 weekly_issues INFO Scraping issue 225
+2025-04-30 16:14:37,811 weekly_issues INFO Uploading issue 225 to S3
+2025-04-30 16:14:38,507 weekly_issues INFO Removing issue 225 file
+2025-04-30 16:14:38,508 weekly_issues INFO Scraping issue 226
+2025-04-30 16:14:46,654 weekly_issues INFO Uploading issue 226 to S3
+2025-04-30 16:14:47,315 weekly_issues INFO Removing issue 226 file
+2025-04-30 16:14:47,315 weekly_issues INFO Scraping issue 227
+2025-04-30 16:14:54,981 weekly_issues INFO Uploading issue 227 to S3
+2025-04-30 16:14:55,611 weekly_issues INFO Removing issue 227 file
+2025-04-30 16:14:55,612 weekly_issues INFO Scraping issue 228
+2025-04-30 16:15:04,289 weekly_issues INFO Uploading issue 228 to S3
+2025-04-30 16:15:04,973 weekly_issues INFO Removing issue 228 file
+2025-04-30 16:15:04,973 weekly_issues INFO Scraping issue 229
+2025-04-30 16:15:13,374 weekly_issues INFO Uploading issue 229 to S3
+2025-04-30 16:15:13,935 weekly_issues INFO Removing issue 229 file
+2025-04-30 16:15:13,935 weekly_issues INFO Scraping issue 230
+2025-04-30 16:15:22,241 weekly_issues INFO Uploading issue 230 to S3
+2025-04-30 16:15:22,840 weekly_issues INFO Removing issue 230 file
+2025-04-30 16:15:22,840 weekly_issues INFO Scraping issue 231
+2025-04-30 16:15:30,650 weekly_issues INFO Uploading issue 231 to S3
+2025-04-30 16:15:31,266 weekly_issues INFO Removing issue 231 file
+2025-04-30 16:15:31,266 weekly_issues INFO Scraping issue 232
+2025-04-30 16:15:39,376 weekly_issues INFO Uploading issue 232 to S3
+2025-04-30 16:15:40,015 weekly_issues INFO Removing issue 232 file
+2025-04-30 16:15:40,015 weekly_issues INFO Scraping issue 233
+2025-04-30 16:15:48,558 weekly_issues INFO Uploading issue 233 to S3
+2025-04-30 16:15:49,134 weekly_issues INFO Removing issue 233 file
+2025-04-30 16:15:49,134 weekly_issues INFO Scraping issue 234
+2025-04-30 16:15:57,409 weekly_issues INFO Uploading issue 234 to S3
+2025-04-30 16:15:58,105 weekly_issues INFO Removing issue 234 file
+2025-04-30 16:15:58,105 weekly_issues INFO Scraping issue 235
+2025-04-30 16:16:05,255 weekly_issues INFO Uploading issue 235 to S3
+2025-04-30 16:16:06,005 weekly_issues INFO Removing issue 235 file
+2025-04-30 16:16:06,005 weekly_issues INFO Scraping issue 236
+2025-04-30 16:16:15,000 weekly_issues INFO Uploading issue 236 to S3
+2025-04-30 16:16:15,639 weekly_issues INFO Removing issue 236 file
+2025-04-30 16:16:15,639 weekly_issues INFO Scraping issue 237
+2025-04-30 16:16:22,698 weekly_issues INFO Uploading issue 237 to S3
+2025-04-30 16:16:23,321 weekly_issues INFO Removing issue 237 file
+2025-04-30 16:16:23,321 weekly_issues INFO Scraping issue 238
+2025-04-30 16:16:31,369 weekly_issues INFO Uploading issue 238 to S3
+2025-04-30 16:16:31,943 weekly_issues INFO Removing issue 238 file
+2025-04-30 16:16:31,943 weekly_issues INFO Scraping issue 239
+2025-04-30 16:16:40,378 weekly_issues INFO Uploading issue 239 to S3
+2025-04-30 16:16:40,976 weekly_issues INFO Removing issue 239 file
+2025-04-30 16:16:40,977 weekly_issues INFO Scraping issue 240
+2025-04-30 16:16:48,263 weekly_issues INFO Uploading issue 240 to S3
+2025-04-30 16:16:48,888 weekly_issues INFO Removing issue 240 file
+2025-04-30 16:16:48,888 weekly_issues INFO Scraping issue 241
+2025-04-30 16:16:55,785 weekly_issues INFO Uploading issue 241 to S3
+2025-04-30 16:16:56,388 weekly_issues INFO Removing issue 241 file
+2025-04-30 16:16:56,388 weekly_issues INFO Scraping issue 242
+2025-04-30 16:17:03,856 weekly_issues INFO Uploading issue 242 to S3
+2025-04-30 16:17:04,538 weekly_issues INFO Removing issue 242 file
+2025-04-30 16:17:04,538 weekly_issues INFO Scraping issue 243
+2025-04-30 16:17:11,789 weekly_issues INFO Uploading issue 243 to S3
+2025-04-30 16:17:12,418 weekly_issues INFO Removing issue 243 file
+2025-04-30 16:17:12,418 weekly_issues INFO Scraping issue 244
+2025-04-30 16:17:19,801 weekly_issues INFO Uploading issue 244 to S3
+2025-04-30 16:17:20,439 weekly_issues INFO Removing issue 244 file
+2025-04-30 16:17:20,440 weekly_issues INFO Scraping issue 245
+2025-04-30 16:17:27,777 weekly_issues INFO Uploading issue 245 to S3
+2025-04-30 16:17:28,403 weekly_issues INFO Removing issue 245 file
+2025-04-30 16:17:28,403 weekly_issues INFO Scraping issue 246
+2025-04-30 16:17:35,160 weekly_issues INFO Uploading issue 246 to S3
+2025-04-30 16:17:35,729 weekly_issues INFO Removing issue 246 file
+2025-04-30 16:17:35,729 weekly_issues INFO Scraping issue 247
+2025-04-30 16:17:43,035 weekly_issues INFO Uploading issue 247 to S3
+2025-04-30 16:17:43,642 weekly_issues INFO Removing issue 247 file
+2025-04-30 16:17:43,643 weekly_issues INFO Scraping issue 248
+2025-04-30 16:17:51,196 weekly_issues INFO Uploading issue 248 to S3
+2025-04-30 16:17:51,839 weekly_issues INFO Removing issue 248 file
+2025-04-30 16:17:51,839 weekly_issues INFO Scraping issue 249
+2025-04-30 16:17:59,833 weekly_issues INFO Uploading issue 249 to S3
+2025-04-30 16:18:00,582 weekly_issues INFO Removing issue 249 file
+2025-04-30 16:18:00,582 weekly_issues INFO Scraping issue 250
+2025-04-30 16:18:07,950 weekly_issues INFO Uploading issue 250 to S3
+2025-04-30 16:18:08,597 weekly_issues INFO Removing issue 250 file
+2025-04-30 16:18:08,597 weekly_issues INFO Scraping issue 251
+2025-04-30 16:18:15,679 weekly_issues INFO Uploading issue 251 to S3
+2025-04-30 16:18:16,296 weekly_issues INFO Removing issue 251 file
+2025-04-30 16:18:16,296 weekly_issues INFO Scraping issue 252
+2025-04-30 16:18:23,290 weekly_issues INFO Uploading issue 252 to S3
+2025-04-30 16:18:24,158 weekly_issues INFO Removing issue 252 file
+2025-04-30 16:18:24,158 weekly_issues INFO Scraping issue 253
+2025-04-30 16:18:31,331 weekly_issues INFO Uploading issue 253 to S3
+2025-04-30 16:18:31,977 weekly_issues INFO Removing issue 253 file
+2025-04-30 16:18:31,978 weekly_issues INFO Scraping issue 254
+2025-04-30 16:18:39,160 weekly_issues INFO Uploading issue 254 to S3
+2025-04-30 16:18:39,749 weekly_issues INFO Removing issue 254 file
+2025-04-30 16:18:39,749 weekly_issues INFO Scraping issue 255
+2025-04-30 16:18:47,943 weekly_issues INFO Uploading issue 255 to S3
+2025-04-30 16:18:48,581 weekly_issues INFO Removing issue 255 file
+2025-04-30 16:18:48,581 weekly_issues INFO Scraping issue 256
+2025-04-30 16:18:55,639 weekly_issues INFO Uploading issue 256 to S3
+2025-04-30 16:18:56,284 weekly_issues INFO Removing issue 256 file
+2025-04-30 16:18:56,284 weekly_issues INFO Scraping issue 257
+2025-04-30 16:19:04,947 weekly_issues INFO Uploading issue 257 to S3
+2025-04-30 16:19:05,584 weekly_issues INFO Removing issue 257 file
+2025-04-30 16:19:05,584 weekly_issues INFO Scraping issue 258
+2025-04-30 16:19:12,915 weekly_issues INFO Uploading issue 258 to S3
+2025-04-30 16:19:13,555 weekly_issues INFO Removing issue 258 file
+2025-04-30 16:19:13,555 weekly_issues INFO Scraping issue 259
+2025-04-30 16:19:20,792 weekly_issues INFO Uploading issue 259 to S3
+2025-04-30 16:19:21,368 weekly_issues INFO Removing issue 259 file
+2025-04-30 16:19:21,368 weekly_issues INFO Scraping issue 260
+2025-04-30 16:19:29,095 weekly_issues INFO Uploading issue 260 to S3
+2025-04-30 16:19:29,734 weekly_issues INFO Removing issue 260 file
+2025-04-30 16:19:29,734 weekly_issues INFO Scraping issue 261
+2025-04-30 16:19:36,578 weekly_issues INFO Uploading issue 261 to S3
+2025-04-30 16:19:37,195 weekly_issues INFO Removing issue 261 file
+2025-04-30 16:19:37,195 weekly_issues INFO Scraping issue 262
+2025-04-30 16:19:44,334 weekly_issues INFO Uploading issue 262 to S3
+2025-04-30 16:19:45,002 weekly_issues INFO Removing issue 262 file
+2025-04-30 16:19:45,002 weekly_issues INFO Scraping issue 263
+2025-04-30 16:19:52,175 weekly_issues INFO Uploading issue 263 to S3
+2025-04-30 16:19:53,010 weekly_issues INFO Removing issue 263 file
+2025-04-30 16:19:53,010 weekly_issues INFO Scraping issue 264
+2025-04-30 16:20:00,549 weekly_issues INFO Uploading issue 264 to S3
+2025-04-30 16:20:01,159 weekly_issues INFO Removing issue 264 file
+2025-04-30 16:20:01,159 weekly_issues INFO Scraping issue 265
+2025-04-30 16:20:08,537 weekly_issues INFO Uploading issue 265 to S3
+2025-04-30 16:20:09,096 weekly_issues INFO Removing issue 265 file
+2025-04-30 16:20:09,097 weekly_issues INFO Scraping issue 266
+2025-04-30 16:20:16,180 weekly_issues INFO Uploading issue 266 to S3
+2025-04-30 16:20:16,821 weekly_issues INFO Removing issue 266 file
+2025-04-30 16:20:16,822 weekly_issues INFO Scraping issue 267
+2025-04-30 16:20:24,065 weekly_issues INFO Uploading issue 267 to S3
+2025-04-30 16:20:24,707 weekly_issues INFO Removing issue 267 file
+2025-04-30 16:20:24,707 weekly_issues INFO Scraping issue 268
+2025-04-30 16:20:33,157 weekly_issues INFO Uploading issue 268 to S3
+2025-04-30 16:20:33,757 weekly_issues INFO Removing issue 268 file
+2025-04-30 16:20:33,757 weekly_issues INFO Scraping issue 269
+2025-04-30 16:20:40,957 weekly_issues INFO Uploading issue 269 to S3
+2025-04-30 16:20:41,579 weekly_issues INFO Removing issue 269 file
+2025-04-30 16:20:41,580 weekly_issues INFO Scraping issue 270
+2025-04-30 16:20:49,202 weekly_issues INFO Uploading issue 270 to S3
+2025-04-30 16:20:49,794 weekly_issues INFO Removing issue 270 file
+2025-04-30 16:20:49,794 weekly_issues INFO Scraping issue 271
+2025-04-30 16:20:57,303 weekly_issues INFO Uploading issue 271 to S3
+2025-04-30 16:20:57,991 weekly_issues INFO Removing issue 271 file
+2025-04-30 16:20:57,991 weekly_issues INFO Scraping issue 272
+2025-04-30 16:21:05,126 weekly_issues INFO Uploading issue 272 to S3
+2025-04-30 16:21:05,739 weekly_issues INFO Removing issue 272 file
+2025-04-30 16:21:05,739 weekly_issues INFO Scraping issue 273
+2025-04-30 16:21:13,363 weekly_issues INFO Uploading issue 273 to S3
+2025-04-30 16:21:14,106 weekly_issues INFO Removing issue 273 file
+2025-04-30 16:21:14,106 weekly_issues INFO Scraping issue 274
+2025-04-30 16:21:21,654 weekly_issues INFO Uploading issue 274 to S3
+2025-04-30 16:21:22,207 weekly_issues INFO Removing issue 274 file
+2025-04-30 16:21:22,207 weekly_issues INFO Scraping issue 275
+2025-04-30 16:21:29,514 weekly_issues INFO Uploading issue 275 to S3
+2025-04-30 16:21:30,146 weekly_issues INFO Removing issue 275 file
+2025-04-30 16:21:30,146 weekly_issues INFO Scraping issue 276
+2025-04-30 16:21:37,519 weekly_issues INFO Uploading issue 276 to S3
+2025-04-30 16:21:38,158 weekly_issues INFO Removing issue 276 file
+2025-04-30 16:21:38,158 weekly_issues INFO Scraping issue 277
+2025-04-30 16:21:45,504 weekly_issues INFO Uploading issue 277 to S3
+2025-04-30 16:21:46,128 weekly_issues INFO Removing issue 277 file
+2025-04-30 16:21:46,128 weekly_issues INFO Scraping issue 278
+2025-04-30 16:21:53,132 weekly_issues INFO Uploading issue 278 to S3
+2025-04-30 16:21:53,745 weekly_issues INFO Removing issue 278 file
+2025-04-30 16:21:53,746 weekly_issues INFO Scraping issue 279
+2025-04-30 16:22:01,487 weekly_issues INFO Uploading issue 279 to S3
+2025-04-30 16:22:02,182 weekly_issues INFO Removing issue 279 file
+2025-04-30 16:22:02,182 weekly_issues INFO Scraping issue 280
+2025-04-30 16:22:09,820 weekly_issues INFO Uploading issue 280 to S3
+2025-04-30 16:22:10,554 weekly_issues INFO Removing issue 280 file
+2025-04-30 16:22:10,554 weekly_issues INFO Scraping issue 281
+2025-04-30 16:22:18,783 weekly_issues INFO Uploading issue 281 to S3
+2025-04-30 16:22:19,475 weekly_issues INFO Removing issue 281 file
+2025-04-30 16:22:19,475 weekly_issues INFO Scraping issue 282
+2025-04-30 16:22:28,037 weekly_issues INFO Uploading issue 282 to S3
+2025-04-30 16:22:28,662 weekly_issues INFO Removing issue 282 file
+2025-04-30 16:22:28,662 weekly_issues INFO Scraping issue 283
+2025-04-30 16:22:36,557 weekly_issues INFO Uploading issue 283 to S3
+2025-04-30 16:22:37,196 weekly_issues INFO Removing issue 283 file
+2025-04-30 16:22:37,196 weekly_issues INFO Scraping issue 284
+2025-04-30 16:22:44,891 weekly_issues INFO Uploading issue 284 to S3
+2025-04-30 16:22:45,557 weekly_issues INFO Removing issue 284 file
+2025-04-30 16:22:45,557 weekly_issues INFO Scraping issue 285
+2025-04-30 16:22:53,235 weekly_issues INFO Uploading issue 285 to S3
+2025-04-30 16:22:53,875 weekly_issues INFO Removing issue 285 file
+2025-04-30 16:22:53,875 weekly_issues INFO Scraping issue 286
+2025-04-30 16:23:01,145 weekly_issues INFO Uploading issue 286 to S3
+2025-04-30 16:23:01,775 weekly_issues INFO Removing issue 286 file
+2025-04-30 16:23:01,776 weekly_issues INFO Scraping issue 287
+2025-04-30 16:23:09,439 weekly_issues INFO Uploading issue 287 to S3
+2025-04-30 16:23:10,008 weekly_issues INFO Removing issue 287 file
+2025-04-30 16:23:10,008 weekly_issues INFO Scraping issue 288
+2025-04-30 16:23:17,312 weekly_issues INFO Uploading issue 288 to S3
+2025-04-30 16:23:17,883 weekly_issues INFO Removing issue 288 file
+2025-04-30 16:23:17,883 weekly_issues INFO Scraping issue 289
+2025-04-30 16:23:25,086 weekly_issues INFO Uploading issue 289 to S3
+2025-04-30 16:23:25,750 weekly_issues INFO Removing issue 289 file
+2025-04-30 16:23:25,751 weekly_issues INFO Scraping issue 290
+2025-04-30 16:23:33,435 weekly_issues INFO Uploading issue 290 to S3
+2025-04-30 16:23:34,273 weekly_issues INFO Removing issue 290 file
+2025-04-30 16:23:34,273 weekly_issues INFO Scraping issue 291
+2025-04-30 16:23:41,706 weekly_issues INFO Uploading issue 291 to S3
+2025-04-30 16:23:42,261 weekly_issues INFO Removing issue 291 file
+2025-04-30 16:23:42,261 weekly_issues INFO Scraping issue 292
+2025-04-30 16:23:49,931 weekly_issues INFO Uploading issue 292 to S3
+2025-04-30 16:23:50,555 weekly_issues INFO Removing issue 292 file
+2025-04-30 16:23:50,555 weekly_issues INFO Scraping issue 293
+2025-04-30 16:23:58,499 weekly_issues INFO Uploading issue 293 to S3
+2025-04-30 16:23:59,196 weekly_issues INFO Removing issue 293 file
+2025-04-30 16:23:59,197 weekly_issues INFO Scraping issue 294
+2025-04-30 16:24:07,030 weekly_issues INFO Uploading issue 294 to S3
+2025-04-30 16:24:07,699 weekly_issues INFO Removing issue 294 file
+2025-04-30 16:24:07,699 weekly_issues INFO Scraping issue 295
+2025-04-30 16:24:14,662 weekly_issues INFO Uploading issue 295 to S3
+2025-04-30 16:24:15,205 weekly_issues INFO Removing issue 295 file
+2025-04-30 16:24:15,205 weekly_issues INFO Scraping issue 296
+2025-04-30 16:24:23,402 weekly_issues INFO Uploading issue 296 to S3
+2025-04-30 16:24:24,061 weekly_issues INFO Removing issue 296 file
+2025-04-30 16:24:24,062 weekly_issues INFO Scraping issue 297
+2025-04-30 16:24:31,233 weekly_issues INFO Uploading issue 297 to S3
+2025-04-30 16:24:31,915 weekly_issues INFO Removing issue 297 file
+2025-04-30 16:24:31,916 weekly_issues INFO Scraping issue 298
+2025-04-30 16:24:38,795 weekly_issues INFO Uploading issue 298 to S3
+2025-04-30 16:24:39,399 weekly_issues INFO Removing issue 298 file
+2025-04-30 16:50:13,220 weekly_issues INFO Scraping issue 1
+2025-04-30 16:50:29,702 weekly_issues INFO Uploading issue 1 to S3
+2025-04-30 16:50:29,718 botocore.tokens INFO Loading cached SSO token for bedrock-identity-center
+2025-04-30 16:50:30,515 botocore.tokens INFO SSO Token refresh succeeded
+2025-04-30 16:50:32,091 weekly_issues INFO Removing issue 1 file
+2025-04-30 16:50:32,091 weekly_issues INFO Scraping issue 2
+2025-04-30 16:50:32,785 asyncio ERROR Future exception was never retrieved
+future: <Future finished exception=Error('net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to "https://www.deeplearning.ai/the-batch/issue-2/", waiting until "domcontentloaded"\n')>
+playwright._impl._errors.Error: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://www.deeplearning.ai/the-batch/issue-2/", waiting until "domcontentloaded"
+
