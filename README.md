@@ -21,8 +21,7 @@ Andrew's Letters, Data Points, ML Research, Business, Science, Culture, Hardware
 
 ### Scrapping
 
-- [ ] Create a scrapper to get the data from The Batch
-- [ ] Expose the scrapper as an interface
+- [x] Create a scrapper to get the data from The Batch
 
 ### Embedding
 
