@@ -2,6 +2,10 @@
 
 https://www.deeplearning.ai/the-batch/
 
+## Approach
+
+Andrew's Letters, Data Points, ML Research, Business, Science, Culture, Hardware, and AI Careers categories are just rewrites of the Weekly Issues. Therefore, one can only scrape the Weekly Issues and not the other categories.
+
 ## TODO
 
 ### Setting the project up
