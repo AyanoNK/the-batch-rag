@@ -4,6 +4,7 @@ from typing import TypeVar
 
 import uvicorn
 from fastapi import FastAPI, status
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
 
@@ -46,7 +47,21 @@ async def lifespan(_: FastAPI):
     context["bedrock_client"].client.close()
 
 
+origins = [
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "https://the-batch-rag.onrender.com/",
+]
+
+
 app = FastAPI(debug=True, lifespan=lifespan)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")
