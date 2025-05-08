@@ -54,7 +54,6 @@ class BedrockClient(LLMClient):
 
         session_kwargs = self._config.dict()
 
-        print("KWARGS", kwargs)
         # validate if AWS keys are in kwargs
         if "aws_access_key_id" in kwargs and "aws_secret_access_key" in kwargs:
             session_kwargs["aws_access_key_id"] = kwargs.get(
