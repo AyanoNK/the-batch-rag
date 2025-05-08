@@ -9,8 +9,8 @@ from botocore import config as boto_config
 
 logging.basicConfig(level=logging.DEBUG)
 
-LOG = logging.getLogger(__name__)
-LOG.setLevel(logging.DEBUG)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 
 class LLMClient(ABC):
@@ -56,7 +56,7 @@ class BedrockClient(LLMClient):
 
         session_kwargs = self._config.dict()
 
-        LOG.info("Session kwargs for boto3Session %s", session_kwargs)
+        logger.info("Session kwargs for boto3Session %s", session_kwargs)
         self._session = boto3.Session(**session_kwargs)
 
         self.bedrock_agent = self._session.client(
