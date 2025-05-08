@@ -80,7 +80,6 @@ class BedrockClient(LLMClient):
         self.bedrock_flow = self.bedrock_agent.get_flow(
             flowIdentifier=aws_bedrock_flow_id
         )
-        print("FOUND FLOW WITH ID: ", self.bedrock_flow.get("id"))
 
         self.bedrock_runtime_client = self._session.client("bedrock-agent-runtime")
 
