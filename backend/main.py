@@ -51,6 +51,7 @@ origins = [
     "http://localhost:3000",
     "http://localhost:8000",
     "https://the-batch-rag.onrender.com/",
+    "the-batch-rag.onrender.com/",
 ]
 
 
