@@ -64,7 +64,6 @@ class BedrockClient(LLMClient):
             )
             session_kwargs.pop("profile_name", None)
 
-        print("Session kwargs: ", session_kwargs)
         self._session = boto3.Session(**session_kwargs)
 
         self.bedrock_agent = self._session.client(

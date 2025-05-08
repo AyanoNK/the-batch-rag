@@ -55,7 +55,7 @@ def root() -> dict:
     return RedirectResponse("/docs", status_code=status.HTTP_303_SEE_OTHER)
 
 
-@app.post("/conversee/")
+@app.post("/converse/")
 def converse(user_query: UserQuery) -> dict:
     """Converse with the LLM using the BedrockClient.
     This endpoint takes a user query and generates a response using the
@@ -73,8 +73,7 @@ def converse(user_query: UserQuery) -> dict:
     )
 
     return {
-        "post": user_query.query,
-        "some_function": generated_response,
+        "response": generated_response,
     }
 
 
