@@ -31,9 +31,15 @@ async def lifespan(_: FastAPI):
     # env vars
     context["env"] = Settings()
     aws_bedrock_flow_id = context["env"].aws_bedrock_flow_id
+    aws_access_key_id = context["env"].aws_access_key_id
+    aws_secret_access_key = context["env"].aws_secret_access_key
 
     # bedrock client
-    bedrock_client = BedrockClient(aws_bedrock_flow_id=aws_bedrock_flow_id)
+    bedrock_client = BedrockClient(
+        aws_bedrock_flow_id=aws_bedrock_flow_id,
+        aws_access_key_id=aws_access_key_id,
+        aws_secret_access_key=aws_secret_access_key,
+    )
     context["bedrock_client"] = bedrock_client
     yield
     # Clean up resources here

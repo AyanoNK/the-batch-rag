@@ -37,10 +37,7 @@ class Boto3SessionConfig:
 class BedrockClient(LLMClient):
     """Implementation of _LLMClient for Amazon Bedrock."""
 
-    def __init__(
-        self,
-        aws_bedrock_flow_id: str = None,
-    ):
+    def __init__(self, *, aws_bedrock_flow_id: str = None, **kwargs):
         """Constructor.
 
         Even though the interation with Bedrock is stateless, this class
@@ -52,11 +49,21 @@ class BedrockClient(LLMClient):
         """
         if not aws_bedrock_flow_id:
             raise ValueError("aws_bedrock_flow_id is required")
+
         self._config = Boto3SessionConfig()
 
         session_kwargs = self._config.dict()
 
-        logger.info("Session kwargs for boto3Session %s", session_kwargs)
+        print("KWARGS", kwargs)
+        # validate if AWS keys are in kwargs
+        if "aws_access_key_id" in kwargs and "aws_secret_access_key" in kwargs:
+            session_kwargs["aws_access_key_id"] = kwargs.get(
+                "aws_access_key_id", "MOCK_ACCESS_KEY_ID"
+            )
+            session_kwargs["aws_secret_access_key"] = kwargs.get(
+                "aws_secret_access_key", "MOCK_SECRET_ACCESS_KEY"
+            )
+
         self._session = boto3.Session(**session_kwargs)
 
         self.bedrock_agent = self._session.client(
@@ -72,6 +79,7 @@ class BedrockClient(LLMClient):
         self.bedrock_flow = self.bedrock_agent.get_flow(
             flowIdentifier=aws_bedrock_flow_id
         )
+        print("FOUND FLOW WITH ID: ", self.bedrock_flow.get("id"))
 
         self.bedrock_runtime_client = self._session.client("bedrock-agent-runtime")
 
