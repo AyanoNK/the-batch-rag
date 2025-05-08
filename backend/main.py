@@ -1,16 +1,76 @@
 """Base FastAPI application with a couple of endpoints."""
 
-from typing import Union
-from fastapi import FastAPI
+from typing import TypeVar
 
-app = FastAPI()
+import uvicorn
+from fastapi import FastAPI, status
+from fastapi.responses import RedirectResponse
+from pydantic import BaseModel, Field
+
+from config import Settings
+from llm_client import BedrockClient
+
+T = TypeVar("T")
+context: dict[str, T] = {}
+
+
+class UserQuery(BaseModel):
+    """Model for user query."""
+
+    query: str = Field(min_length=5, default="What are some news about Brain2Qwerty?")
+
+
+def get_bedrock_client() -> BedrockClient:
+    """Dependency to get BedrockClient instance."""
+    return BedrockClient()
+
+
+async def lifespan(_: FastAPI):
+    """Lifespan event to initialize and clean up resources."""
+    ## Initialize resources here
+    # env vars
+    context["env"] = Settings()
+    aws_bedrock_flow_id = context["env"].aws_bedrock_flow_id
+
+    # bedrock client
+    bedrock_client = BedrockClient(aws_bedrock_flow_id=aws_bedrock_flow_id)
+    context["bedrock_client"] = bedrock_client
+    yield
+    # Clean up resources here
+    context["bedrock_client"].client.close()
+
+
+app = FastAPI(debug=True, lifespan=lifespan)
 
 
 @app.get("/")
-def read_root() -> dict:
-    return {"Hello": "World"}
+def root() -> dict:
+    """Redirect to the documentation page."""
+    return RedirectResponse("/docs", status_code=status.HTTP_303_SEE_OTHER)
 
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None) -> dict:
-    return {"item_id": item_id, "q": q}
+@app.post("/conversee/")
+def converse(user_query: UserQuery) -> dict:
+    """Converse with the LLM using the BedrockClient.
+    This endpoint takes a user query and generates a response using the
+    BedrockClient.
+
+    Args:
+        user_query (UserQuery): The user query to be processed.
+
+    Returns:
+        dict: _description_
+    """
+    bedrock_client: BedrockClient = context["bedrock_client"]
+    generated_response = bedrock_client.generate_response(
+        query=user_query.query,
+    )
+
+    return {
+        "post": user_query.query,
+        "some_function": generated_response,
+    }
+
+
+if __name__ == "__main__":
+    uvicorn.run(app)
