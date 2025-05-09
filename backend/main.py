@@ -49,6 +49,7 @@ async def lifespan(_: FastAPI):
 
 origins = [
     "http://localhost:3000",
+    "http://127.0.0.1:3000",
     "http://localhost:8000",
     "https://the-batch-rag.onrender.com",
     "https://the-batch-rag.onrender.com:10000",
