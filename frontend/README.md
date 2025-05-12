@@ -1,54 +1,38 @@
 # React + TypeScript + Vite
 
+This is the frontend side of the project to display a chatbot that interacts with the backend. The frontend and backend uses REST to communicate.
+
+In this case, no external libraries are used to handle communication between the frontend and the backend.
+
+Choose your favorite deployment platform that supports Bun and Vite to deploy this frontend project.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+Clone the repository or deploy it to your favorite deployment platform that supports Bun and Vite.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Environment variables
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+For this project, the only environment variable needed to successfully run the chatbot is the backend URL. 
+Declaring using the `VITE_BACKEND_URL` environment variable name. See more in the [.env.example](.env.example) file.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Usage
+
+An example deployment of this project can be found at [this link](https://the-batch-rag.onrender.com/).
+
+## Routes
+
+There is only route available, which is the root (`/`).
+
+### How to interact
+
+Write a question regarding [The Batch](https://www.deeplearning.ai/the-batch/) news. The question will be sent to the backend and a Markdown answer will be generated. Said answer will be displayed back in the frontend. 
+
+### Handling images
+
+Because the backend returns Markdown text, that means that the original URLs to the images displayed in the backend are sent back and rendered in the frontend. This means that the images are not stored locally, but rather depend on the external server that is storing them.
