@@ -1,12 +1,25 @@
 # the-batch-rag
 
-https://www.deeplearning.ai/the-batch/
+See the results at [https://the-batch-rag.onrender.com/](https://the-batch-rag.onrender.com/)
+The Batch is a weekly newsletter by Andrew Ng that covers the latest developments in AI and machine learning. It is a great resource for anyone interested in staying up-to-date with the latest trends and advancements in the field.
+This project is a simple web application that allows users to search for specific topics in the newsletter and get relevant information. The application uses a combination of web scraping, natural language processing, and machine learning to provide accurate and relevant results.
 
 ## Approach
 
 Andrew's Letters, Data Points, ML Research, Business, Science, Culture, Hardware, and AI Careers categories are just rewrites of the Weekly Issues. Therefore, one can only scrape the Weekly Issues and not the other categories.
 
-## TODO
+### Usage
+
+See the official documentation and approach [here](DOCS.md).
+
+### Setup
+
+1. Set up the scrapper and scrape the data from The Batch. Follow instructions in the [scrapper](scrapper/README.md) folder.
+2. Set up the vector database and embeddings. Follow instructions in the [cloud documentation using AWS](CLOUD.md).
+3. Set up the backend API. Follow instructions in the [backend](backend/README.md) folder.
+4. Set up the frontend. Follow instructions in the [frontend](frontend/README.md) folder.
+
+## Roadmap
 
 ### Setting the project up
 
@@ -16,23 +29,18 @@ Andrew's Letters, Data Points, ML Research, Business, Science, Culture, Hardware
 ### Setting up the project environemnt
 
 - [x] Create the chat frontend
-- [ ] Create the backend API with some mock calls for the frontend to call
-- [ ] Create the vector database for embeddings
+- [x] Create the backend API with some mock calls for the frontend to call
+- [x] Create the vector database for embeddings
 
 ### Scrapping
 
 - [x] Create a scrapper to get the data from The Batch
 
-### Embedding
-
-- [ ] Create a cronjob that takes the data from the scrapper and embeds it
-- [ ] Use the cronjob to upload the embeddings to the vector database. Beware of duplicates.
-
 ### Interaction
 
-- [ ] Use an LLM to interact with the user, using the vector database to retrieve data from the user query
-- [ ] Use the LLM to generate a summary of the data retrieved from the vector database.
-- [ ] Use the resulting summary to expose an API endpoint.
+- [x] Use an LLM to interact with the user, using the vector database to retrieve data from the user query
+- [x] Use the LLM to generate a summary of the data retrieved from the vector database.
+- [x] Use the resulting summary to expose an API endpoint.
 
 ## Reference
 
