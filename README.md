@@ -1,6 +1,7 @@
 # the-batch-rag
 
 See the results at [https://the-batch-rag.onrender.com/](https://the-batch-rag.onrender.com/)
+
 The Batch is a weekly newsletter by Andrew Ng that covers the latest developments in AI and machine learning. It is a great resource for anyone interested in staying up-to-date with the latest trends and advancements in the field.
 This project is a simple web application that allows users to search for specific topics in the newsletter and get relevant information. The application uses a combination of web scraping, natural language processing, and machine learning to provide accurate and relevant results.
 
