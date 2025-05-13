@@ -32,3 +32,39 @@ python main.py
 ## Configuration
 
 - `main.py` contains the configuration for the script.
+
+## Usage
+
+### Spinning up the server
+
+The server is built using FastAPI and runs on port 8000 by default. You can change the port by modifying the `port` variable in `main.py`.
+
+This server is also built using Boto3 to create a new Bedrock client to interact with the Bedrock service.
+That said, [llm_client.py](llm_client.py) contains a generic class to have not only the configuration for the Bedrock client, but other future implementations.
+
+### Routes
+
+There are two routes available in the backend:
+
+- `/`: This route will redirect GET requests to the documentation OpenAPI service.
+- `/converse`: This is the main route of the application. It is used to communicate with Python backend service. It returns a JSON response with the answer to the question asked by the user. Keep in mind that the response will be in Markdown format.
+
+  - The request body should contain a JSON object with the following structure:
+
+  ```json
+  {
+    "query": "What is the latest news about AI?"
+  }
+  ```
+
+  - The response will be a JSON object with the following structure:
+
+  ```json
+  {
+    "answer": "The latest news about AI is...",
+    "response": {
+      "flow_status": "The status of the Bedrock Flow's executiion",
+      "output": "The output of the Bedrock Flow in Markdown format"
+    }
+  }
+  ```
