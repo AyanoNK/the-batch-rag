@@ -6,5 +6,6 @@ class Settings(BaseSettings):
     """Settings class to manage environment variables and application settings."""
 
     nvidia_key: str = Field(default="")
+    pinecone_api_key: str = Field(default="")
 
     model_config = SettingsConfigDict(env_file=".env")
