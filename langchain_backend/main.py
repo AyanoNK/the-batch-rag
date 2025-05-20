@@ -9,7 +9,7 @@ from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
 
 from config import Settings
-from lib.llm_client import BedrockClient
+from llm_client import NVIDIAOpenAIClient
 
 T = TypeVar("T")
 context: dict[str, T] = {}
@@ -21,24 +21,21 @@ class UserQuery(BaseModel):
     query: str = Field(min_length=5, default="What are some news about Brain2Qwerty?")
 
 
-def get_bedrock_client() -> BedrockClient:
-    """Dependency to get BedrockClient instance."""
-    return BedrockClient()
+def get_nvidia_client(nvidia_key: str) -> NVIDIAOpenAIClient:
+    """Dependency to get NVIDIAOpenAIClient instance."""
+    return NVIDIAOpenAIClient(
+        NVIDIA_KEY=nvidia_key,
+    )
 
 
 async def lifespan(_: FastAPI):
     """Lifespan event to initialize and clean up resources."""
     ## Initialize resources here
-    # env vars
     context["env"] = Settings()
-    nvidia_key = context["NVIDIA_KEY"].nvidia_key
-    # openai client
-    
-    
-    context["bedrock_client"] = bedrock_client
+    nvidia_key = context["env"].get("nvidia_key", "")
+    context["nvidia_client"] = get_nvidia_client(nvidia_key)
     yield
     # Clean up resources here
-    context["bedrock_client"].client.close()
 
 
 origins = [
@@ -70,9 +67,9 @@ def root() -> dict:
 
 @app.post("/converse/")
 def converse(user_query: UserQuery) -> dict:
-    """Converse with the LLM using the BedrockClient.
+    """Converse with the LLM using the NVIDIAOpenAIClient.
     This endpoint takes a user query and generates a response using the
-    BedrockClient.
+    NVIDIAOpenAIClient.
 
     Args:
         user_query (UserQuery): The user query to be processed.
@@ -80,8 +77,8 @@ def converse(user_query: UserQuery) -> dict:
     Returns:
         dict: _description_
     """
-    bedrock_client: BedrockClient = context["bedrock_client"]
-    generated_response = bedrock_client.generate_response(
+    nvidia_client: NVIDIAOpenAIClient = context["nvidia_client"]
+    generated_response = nvidia_client.generate_response(
         query=user_query.query,
     )
 
