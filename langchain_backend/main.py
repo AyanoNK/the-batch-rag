@@ -6,12 +6,19 @@ import uvicorn
 from fastapi import FastAPI, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
+from langchain.chat_models import init_chat_model
+from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
+from langchain_pinecone import PineconeVectorStore
+from pinecone import Pinecone
 from pydantic import BaseModel, Field
 
 from config import Settings
 from llm_client import NVIDIAOpenAIClient
+from pipeline import query_response
 
 T = TypeVar("T")
+
+INDEX_NAME = "the-batch-index"
 context: dict[str, T] = {}
 
 
@@ -33,6 +40,26 @@ async def lifespan(_: FastAPI):
     ## Initialize resources here
     context["env"] = Settings()
     context["nvidia_client"] = get_nvidia_client(context["env"].nvidia_key)
+    context["nvidia_chat_llm"] = init_chat_model(
+        "meta/llama3-70b-instruct",
+        model_provider="nvidia",
+        nvidia_api_key=context["env"].nvidia_key,
+    )
+
+    # NVIDIA embeddings
+    embeddings = NVIDIAEmbeddings(
+        nvidia_api_key=context["env"].nvidia_key, model="baai/bge-m3"
+    )
+
+    # pinecone
+
+    pc = Pinecone(
+        api_key=context["env"].pinecone_api_key,
+    )
+
+    index = pc.Index(INDEX_NAME)
+    context["vector_store"] = PineconeVectorStore(embedding=embeddings, index=index)
+
     yield
     # Clean up resources here
 
@@ -76,13 +103,14 @@ def converse(user_query: UserQuery) -> dict:
     Returns:
         dict: _description_
     """
-    nvidia_client: NVIDIAOpenAIClient = context["nvidia_client"]
-    generated_response = nvidia_client.generate_response(
+    llm_response = query_response(
         query=user_query.query,
+        vector_store=context["vector_store"],
+        nvidia_llm=context["nvidia_chat_llm"],
     )
 
     return {
-        "response": generated_response,
+        "response": llm_response,
     }
 
 

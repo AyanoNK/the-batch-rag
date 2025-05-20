@@ -34,7 +34,7 @@ logging.basicConfig(
 )
 
 
-INDEX_NAME = "the-batch-index"  # change if desired
+INDEX_NAME = "the-batch-index"
 
 if not pc.has_index(INDEX_NAME):
     pc.create_index(
