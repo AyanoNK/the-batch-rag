@@ -1,4 +1,4 @@
-# The Batch RAG Backend
+# TODO: REWRITE README: The Batch RAG Backend
 
 This is the backend for The Batch RAG, a website tailored to put weekly news about AI.
 
