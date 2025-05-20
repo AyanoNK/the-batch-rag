@@ -32,8 +32,7 @@ async def lifespan(_: FastAPI):
     """Lifespan event to initialize and clean up resources."""
     ## Initialize resources here
     context["env"] = Settings()
-    nvidia_key = context["env"].get("nvidia_key", "")
-    context["nvidia_client"] = get_nvidia_client(nvidia_key)
+    context["nvidia_client"] = get_nvidia_client(context["env"].nvidia_key)
     yield
     # Clean up resources here
 
