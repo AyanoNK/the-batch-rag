@@ -41,7 +41,7 @@ async def lifespan(_: FastAPI):
     context["env"] = Settings()
     context["nvidia_client"] = get_nvidia_client(context["env"].nvidia_key)
     context["nvidia_chat_llm"] = init_chat_model(
-        "meta/llama3-70b-instruct",
+        "meta/llama-4-maverick-17b-128e-instruct",
         model_provider="nvidia",
         nvidia_api_key=context["env"].nvidia_key,
     )
@@ -109,9 +109,7 @@ def converse(user_query: UserQuery) -> dict:
         nvidia_llm=context["nvidia_chat_llm"],
     )
 
-    return {
-        "response": llm_response,
-    }
+    return llm_response
 
 
 if __name__ == "__main__":

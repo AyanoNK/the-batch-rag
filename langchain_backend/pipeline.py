@@ -1,5 +1,7 @@
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains.retrieval import create_retrieval_chain
 from langchain_core.language_models import BaseChatModel
-from langchain_core.prompts.chat import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_pinecone import PineconeVectorStore
 
 PROMPT = """
@@ -7,15 +9,13 @@ You are an assistant for question-answering tasks.
 Use the following pieces of retrieved context to answer the question.
 If you don't know the answer, just say that you don't know.
 Use three sentences maximum and keep the answer concise.
-
-Question: {query}
 Context: {context}
-Answer:
 """
 
-prompt_template = ChatPromptTemplate(
+prompt_template = ChatPromptTemplate.from_messages(
     [
         ("system", PROMPT),
+        ("human", "{input}"),
     ]
 )
 
@@ -33,9 +33,19 @@ def query_response(
     Returns:
         str: The generated response from the LLM.
     """
-    retrieved_docs = vector_store.similarity_search(query, k=5)
-    docs_content = "\n\n".join(doc.page_content for doc in retrieved_docs)
-    example_messages = prompt_template.invoke({"context": docs_content, "query": query})
 
-    answer = nvidia_llm.invoke(example_messages)
-    return answer.content
+    retriever = vector_store.as_retriever(search_kwargs={"k": 3})
+
+    question_answer_chain = create_stuff_documents_chain(nvidia_llm, prompt_template)
+    chain = create_retrieval_chain(
+        retriever=retriever, combine_docs_chain=question_answer_chain
+    )
+
+    answer = chain.invoke({"input": query})
+
+    source_files = [doc.metadata.get("filename", "") for doc in answer["context"]]
+
+    return {
+        "answer": answer.get("answer"),
+        "source_documents": source_files,
+    }
