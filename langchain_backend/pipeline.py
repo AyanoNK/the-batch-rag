@@ -43,7 +43,7 @@ def query_response(
 
     answer = chain.invoke({"input": query})
 
-    source_files = [doc.metadata.get("filename", "") for doc in answer["context"]]
+    source_files = set([doc.metadata.get("filename", "") for doc in answer["context"]])
 
     return {
         "answer": answer.get("answer"),
