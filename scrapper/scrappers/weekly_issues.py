@@ -6,8 +6,8 @@ from crawl4ai import AsyncWebCrawler, CrawlerRunConfig
 from langchain_community.document_loaders.markdown import UnstructuredMarkdownLoader
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
 from langchain_pinecone import PineconeVectorStore
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from openai import OpenAI
-from pinecone import Pinecone
 
 URL = "https://www.deeplearning.ai/the-batch/issue-{issue_number}/"
 
@@ -20,9 +20,7 @@ openai_client = OpenAI(
 )
 
 
-async def scrape_weekly_issues(
-    index, pinecone_client: Pinecone, logger: logging.Logger
-) -> None:
+async def scrape_weekly_issues(index, logger: logging.Logger) -> None:
     """Function to scrape the weekly issues of the deeplearning.ai website.
 
     Args:
@@ -71,7 +69,7 @@ async def scrape_weekly_issues(
             #     bucket_name="the-batch-markdown",
             #     object_name=f"scrapped_issues/issue_{issue}.md",
             # )
-    save_to_pinecone(index=index, pinecone_client=pinecone_client)
+    save_to_pinecone(index=index)
 
 
 def save_to_s3(s3_client, file_path, bucket_name, object_name):
@@ -83,7 +81,7 @@ def save_to_s3(s3_client, file_path, bucket_name, object_name):
         print(f"Error uploading file to S3: {e}")
 
 
-def save_to_pinecone(index, pinecone_client: Pinecone):
+def save_to_pinecone(index):
     embeddings = NVIDIAEmbeddings(
         nvidia_api_key=os.environ.get("NVIDIA_KEY", ""), model="baai/bge-m3"
     )
@@ -107,5 +105,19 @@ def save_to_pinecone(index, pinecone_client: Pinecone):
                 # add metadata to the document
                 documents.append(document)
 
+    # chunking the documents
+
+    text_splitter = RecursiveCharacterTextSplitter(
+        separators=[
+            "\n",
+            "\n\n",
+            "#",
+        ],
+        chunk_size=486,  # 95%
+        chunk_overlap=26,  # 5%, for a total of 512 tokens
+    )
+
+    splitted_chunks = text_splitter.split_documents(documents)
+
     uuids = [str(uuid4()) for _ in range(len(documents))]
-    vector_store.add_documents(documents=documents, ids=uuids)
+    vector_store.add_documents(documents=splitted_chunks, ids=uuids)

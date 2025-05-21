@@ -51,4 +51,4 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
 
 
 if __name__ == "__main__":
-    asyncio.run(scrape_weekly_issues(index=index, pinecone_client=pc, logger=logger))
+    asyncio.run(scrape_weekly_issues(index=index, logger=logger))
