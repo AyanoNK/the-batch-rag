@@ -17,7 +17,7 @@ class LLMClient(ABC):
         raise NotImplementedError()
 
 
-class NVIDIAOpenAIClient(LLMClient):
+class NVIDIAClient(LLMClient):
     """Implementation of _LLMClient for NVIDIA."""
 
     def __init__(self, *args, **kwargs):

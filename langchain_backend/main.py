@@ -3,18 +3,17 @@
 from typing import TypeVar
 
 import uvicorn
+from config import Settings
 from fastapi import FastAPI, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from langchain.chat_models import init_chat_model
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
 from langchain_pinecone import PineconeVectorStore
+from llm_client import NVIDIAClient
 from pinecone import Pinecone
-from pydantic import BaseModel, Field
-
-from config import Settings
-from llm_client import NVIDIAOpenAIClient
 from pipeline import query_response
+from pydantic import BaseModel, Field
 
 T = TypeVar("T")
 
@@ -28,9 +27,9 @@ class UserQuery(BaseModel):
     query: str = Field(min_length=5, default="What are some news about Brain2Qwerty?")
 
 
-def get_nvidia_client(nvidia_key: str) -> NVIDIAOpenAIClient:
-    """Dependency to get NVIDIAOpenAIClient instance."""
-    return NVIDIAOpenAIClient(
+def get_nvidia_client(nvidia_key: str) -> NVIDIAClient:
+    """Dependency to get NVIDIAClient instance."""
+    return NVIDIAClient(
         NVIDIA_KEY=nvidia_key,
     )
 
@@ -93,9 +92,9 @@ def root() -> dict:
 
 @app.post("/converse/")
 def converse(user_query: UserQuery) -> dict:
-    """Converse with the LLM using the NVIDIAOpenAIClient.
+    """Converse with the LLM using the NVIDIAClient.
     This endpoint takes a user query and generates a response using the
-    NVIDIAOpenAIClient.
+    NVIDIAClient.
 
     Args:
         user_query (UserQuery): The user query to be processed.
